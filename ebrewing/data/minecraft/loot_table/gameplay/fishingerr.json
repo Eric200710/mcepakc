@@ -1,0 +1,3920 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "comment": "全地形通用池：15% 原版魚，85% 自訂黃金珍稀魚（無生態域限制，絕對不落空）",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
+          "weight": 15
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 焦灼岩漿黃眼魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "長年生活在海底火山口附近的極端異變魚類，那一對特化的巨眼因為吸收了熔岩能量而閃爍著焦灼的黃光。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻與烈焰共生的怪魚，牠鱗片上的火山抗性將融入你的血液，賦予你無懼烈火與岩漿的神力！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 1623, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjOGZmNTc2NWQ3MmJhNmVhNzQzOTM4ZjAzM2E0NmFhMTlhZjYxMTkyNzhmZTIyN2E3YjZkNmJkZmYxOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：熔岩滅世黃金瞳皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "主宰地底熔岩之海的火山魚皇！巨大的黃金瞳中彷彿有著地獄火在燃燒，游動時尾鰭會灑落滾燙的岩漿碎屑。", "color": "red", "italic": true },
+                  { "text": "吞下這顆狂暴的火山心臟核心，徹底臣服地獄烈火！在熔岩之中你將獲得主宰戰場的絕對神力與怪力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 1623, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjOGZmNTc2NWQ3MmJhNmVhNzQzOTM4ZjAzM2E0NmFhMTlhZjYxMTkyNzhmZTIyN2E3YjZkNmJkZmYxOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:strength", "duration": 1200, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 65,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 衝鋒砲彈飛魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "擁有鋼鐵般抗壓外殼的奇特深海魚，特化的流線型構造讓牠能像砲彈一樣在水中垂直急速竄動。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻極速魚雷，牠體內的強大氣壓核心將賦予你驚人的彈跳力，並讓你的肉體變得無比堅韌！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 25805, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3MzFlMGU4YmYwNjI5NjVlODkwNGU5ZWZjMWZkZTMxM2NmODRkNTMxNDg3YzI2Njg2NDk5MGJkY2NkN2I1NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.firework_rocket.blast",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:jump_boost", "duration": 800, "amplifier": 1 },
+                        { "id": "minecraft:slow_falling", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：超音速高壓深海彈皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "超越物理法則的深海彈道主宰！全身上下包裹著合金般的減壓甲殼，衝鋒時引發的音爆能震碎海床。", "color": "red", "italic": true },
+                  { "text": "吞下這顆狂暴的高壓推進核心，你將獲得突破天際的終極彈跳力與超音速移動！任何重力都將無法束縛你！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 25805, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3MzFlMGU4YmYwNjI5NjVlODkwNGU5ZWZjMWZkZTMxM2NmODRkNTMxNDg3YzI2Njg2NDk5MGJkY2NkN2I1NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:jump_boost", "duration": 400, "amplifier": 4 },
+                        { "id": "minecraft:speed", "duration": 1200, "amplifier": 2 },
+                        { "id": "minecraft:resistance", "duration": 1000, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 380,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 黃眼深海魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "長著一雙巨大且閃爍黃光之特化雙眼的怪魚，能輕易捕捉到深海中極其微弱的螢光。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻擁有極致視力的怪魚，牠視網膜上的神祕元素將瞬間活化你的雙眼，洞穿一切黑暗！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 24930, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJmYzlmNzhjZTU5OTFjYmVmZjgxNDIwMjg5NGY4YWIyYTQ3MTJlNDIzYWUzN2UyZGEyNWFhZmYyYWMzYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：破曉黃金瞳魚皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "深海黃金瞳的終極主宰！那一對巨大的黃金複眼如同深海中的兩輪烈日，能逼視任何潛藏在陰影中的污穢。", "color": "red", "italic": true },
+                  { "text": "吞下這顆破曉的黃金瞳核心，獲得神明般的透視與黑夜主宰力！在你的凝視之下，黑暗將無所遁形！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 24930, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJmYzlmNzhjZTU5OTFjYmVmZjgxNDIwMjg5NGY4YWIyYTQ3MTJlNDIzYWUzN2UyZGEyNWFhZmYyYWMzYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:bad_omen", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 65,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 漆黑藍螢燈籠魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "外皮近乎不反射任何光線的極深海異獸，唯有在張嘴時，才會從喉嚨深處透出神祕的淡淡藍光。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻吞噬光線的怪魚，你的身體將會遁入虛無的陰影，但胸口卻會散發出詭異的螢光。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 24438, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwZTk3MWRkNTE2MTRhMDg2YjI0MGJlNGI3YWJlODA4NzY3YWE1ODY0NDliNTNkMTliZmZkNTg3YjFiMGY4NiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.glow_squid.ambient",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 1000, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：幽藍邃影燈籠皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "主宰超深淵帶的寂靜巨獸！巨大的無底巨口中燃燒著永不熄滅的深淵藍火，能將游過的光線盡數吞噬。", "color": "red", "italic": true },
+                  { "text": "吞下這顆極致的吞光核心，你將獲得完全隔絕外界能量的絕對外殼，連地獄的烈火與岩漿都無法傷你分毫！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 24438, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwZTk3MWRkNTE2MTRhMDg2YjI0MGJlNGI3YWJlODA4NzY3YWE1ODY0NDliNTNkMTliZmZkNTg3YjFiMGY4NiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:fire_resistance", "duration": 1600, "amplifier": 2 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 330,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 撕咬深海食人魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "棲息於漆黑深海的嗜血掠食者，長著一排足以咬碎鋼鐵的剃刀般利齒。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻暴戾的凶獸，牠殘留的狂暴戰意會瞬間湧入你的雙手，大幅提升你的破壞力！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 31687, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjNDY2NGMyNDRlODUwZjcxZTA0MGVkMDk4YTViODE0ZGQ3ODIyOTZjYzIwNzBkMWU1NzlkMWMzYjBkMmEzMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.fox.bite",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:haste", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：血吻深淵食人皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治殺戮海域的食人魚之皇！暗紅色的鱗片散發著濃烈的血腥味，所過之處萬物皆被撕成碎片。", "color": "red", "italic": true },
+                  { "text": "吞下這顆狂暴的深海殺戮核心，解鎖凡人無法企及的毀滅怪力！讓你在戰場上化身為無情的撕咬機器！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 31687, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjNDY2NGMyNDRlODUwZjcxZTA0MGVkMDk4YTViODE0ZGQ3ODIyOTZjYzIwNzBkMWU1NzlkMWMzYjBkMmEzMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 1200, "amplifier": 2 },
+                        { "id": "minecraft:haste", "duration": 1200, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 1 },
+                        { "id": "minecraft:hunger", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 幽匿寄生怪魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "被遠古邃暗的幽匿苔蘚深度寄生的變異魚類，鱗片間閃爍著吸收靈魂的星空微光。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻散發著死寂氣息的怪魚，你的視野將陷入短暫黑暗，但肉體與聲音會徹底與陰影同化。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 55738, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwMGVlODAzYmNhODI5ODgwN2FkZDFjZGY4ZTQwMzkwMDU2ZDliYzI3MmIyOWIzZGY2NWYzYjMxY2I5OTY0YSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "block.sculk.charge",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:darkness", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:invisibility", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 0, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：深淵迴響碎魂皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治遠古邃暗水域的禁忌地獄皇者！巨大的身軀內寄宿著無數被吞噬的靈魂，游動時會引發空間的震顫。", "color": "red", "italic": true },
+                  { "text": "吞下這顆幽匿核心，迎接典獄長般的黑暗試煉！雖然將失去光明，但你將獲得神明也無法探測的寂靜與怪力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 55738, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwMGVlODAzYmNhODI5ODgwN2FkZDFjZGY4ZTQwMzkwMDU2ZDliYzI3MmIyOWIzZGY2NWYzYjMxY2I5OTY0YSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.warden.heartbeat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:darkness", "duration": 600, "amplifier": 2 },
+                        { "id": "minecraft:invisibility", "duration": 1600, "amplifier": 0 },
+                        { "id": "minecraft:strength", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:bad_omen", "duration": 1200, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 350,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 搖晃泡泡金魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "眼睛下方掛著兩顆巨大透明水泡的優雅金魚，游動時水泡會隨波逐流地魔性搖晃。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻富有靈氣的小傢伙，牠體內積蓄的純淨水能量將賦予你短暫在水下呼吸的神奇能力！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 57019, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM1MmRmODVhMDJkN2ZhYzVkY2E3MmRmYmM2YmE4YWMwYTdmOTYyMDhiYzgwNDgyNDc3OTFlZjIyMTZmNWM5NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:dolphins_grace", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：琉璃水嵐金魚皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "金魚一族的至高血脈！兩顆巨型琉璃水泡中流轉著汪洋烈風，鱗片閃爍著無與倫比的華貴金光。", "color": "red", "italic": true },
+                  { "text": "吞下這口終極的琉璃水精華，海風與浪潮將徹底臣服於你！無論在任何水域都能如履平地、自由翱翔！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 57019, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM1MmRmODVhMDJkN2ZhYzVkY2E3MmRmYmM2YmE4YWMwYTdmOTYyMDhiYzgwNDgyNDc3OTFlZjIyMTZmNWM5NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.8,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:water_breathing", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:slow_falling", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:resistance", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 400,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 軟綿馬鈴薯魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "在水中像水母般優雅地軟綿漂浮，卻長著一顆樸實的馬鈴薯腦袋。一旦掉進土豆堆裡就會完全失蹤。", "color": "gray", "italic": true },
+                  { "text": "富有彈性的肉質內含高濃度的優質澱粉與抗毒素，吞下牠能帶給你不俗的飽腹感與毒素免疫！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 62985, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY2YmRlYTYwYzhmMjg0ZTYwZjM4MmUzYTUxZGNiZTU4MmI2NzhmYmUxMWE0ODdjZTRkYjE0NDFhYTVjOTEwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:saturation", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:poison", "duration": 0, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：千層土豆水母皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "完美融合了大地與海洋神力的究極馬鈴薯皇！巨大的半透明身軀在深海中如水母般律動、沉浮。", "color": "red", "italic": true },
+                  { "text": "吞下這口軟Q爆汁的千層土豆靈魂，解鎖徹底免除毒素的尊貴體質，並獲得融入萬物的神級隱匿力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 62985, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY2YmRlYTYwYzhmMjg0ZTYwZjM4MmUzYTUxZGNiZTU4MmI2NzhmYmUxMWE0ODdjZTRkYjE0NDFhYTVjOTEwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:saturation", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:poison", "duration": 0, "amplifier": 1 },
+                        { "id": "minecraft:slow_falling", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:invisibility", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 390,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 圓滾西瓜魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身上下帶著經典翠綠條紋、長得圓滾滾的奇特怪魚。據說拍打牠的肚子會發出清脆的咚咚聲。", "color": "gray", "italic": true },
+                  { "text": "果肉鮮紅多汁且富含滿滿的消暑能量，吞下牠能瞬間潤澤你的傷口，讓體力瘋狂倒流回復！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 62986, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM5ODZlMWE3ZGNjMjNhODM4MDI4NWQ5NmRhNTRmYjkyZjQ3ZDIxYzk3OGNmNmY5ZmRhOTA0ZWExNDhhZWU3ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 400, "amplifier": 1 },
+                        { "id": "minecraft:speed", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：爆汁盛夏西瓜皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "夏日海洋的清涼主宰！龐大的圓滾身軀裡凝聚了無上甘甜的西瓜神力，游動時水花都帶著甜味。", "color": "red", "italic": true },
+                  { "text": "吞下這口終極的盛夏爆汁核心，磅礡的水分精華將直接把你的生命上限與回復力拉到不可思議的極限！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 62986, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM5ODZlMWE3ZGNjMjNhODM4MDI4NWQ5NmRhNTRmYjkyZjQ3ZDIxYzk3OGNmNmY5ZmRhOTA0ZWExNDhhZWU3ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 14, "saturation": 1.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 800, "amplifier": 3 },
+                        { "id": "minecraft:health_boost", "duration": 2000, "amplifier": 1 },
+                        { "id": "minecraft:jump_boost", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 370,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 乾草捆魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "擅長用海中的黃褐色海帶包裹全身的精明魚類，偽裝起來時就像一捆剛紮好的乾草。", "color": "gray", "italic": true },
+                  { "text": "厚實的草捆外殼提供了極佳的物理緩衝，吃下後能讓你的肉體變得更耐打、抗火。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 62987, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1ODM1YzliZWQ5Yzc0MjAwNzhlNDViYjE0YzkzZDViM2ZkOGIzMWRjYjljODdmMzlhZDU1NDI5YTcyNmQyOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "block.grass.break",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:fire_resistance", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：豐收金穗草捆皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "將海帶偽裝術修煉至登峰造極的草捆魚皇！巨大的身軀宛如一整塊飽滿的金黃乾草塊。", "color": "red", "italic": true },
+                  { "text": "吞下牠將解鎖無懈可擊的草捆防禦屏障！不僅能完美隱身，還能獲得不亞於不死圖騰的極致抗性！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 62987, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1ODM1YzliZWQ5Yzc0MjAwNzhlNDViYjE0YzkzZDViM2ZkOGIzMWRjYjljODdmMzlhZDU1NDI5YTcyNmQyOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 14, "saturation": 1.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:invisibility", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 600, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 410,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 水滴甜菜魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "擁有奇特水滴狀身軀的紫紅色魚類，全身上下散發著剛出鍋的甜菜湯香氣。", "color": "gray", "italic": true },
+                  { "text": "雖然形狀有點奇葩，但肉質內含豐富的鐵質與糖分，能瞬間滋補你的氣血。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 62988, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczNTM3MzZiYzk3NTU1MDA0NDJmNWFmMTI5ZjIyOGM1NTcwZmQxNGM2OWFiYTQ1OTRlYjE0OGZlNmQ3ZmY4ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：血色濃郁甜菜皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "凝聚了萬畝農田精華的甜菜魚皇！巨大的水滴身軀紅得發紫，據說牠流出的汗水能直接當成紅色染料。", "color": "red", "italic": true },
+                  { "text": "吞下這顆狂暴的血色水滴，濃郁的湯品神力將徹底沸騰你的熱量，並激發出無窮的怪力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 62988, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczNTM3MzZiYzk3NTU1MDA0NDJmNWFmMTI5ZjIyOGM1NTcwZmQxNGM2OWFiYTQ1OTRlYjE0OGZlNmQ3ZmY4ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 600, "amplifier": 2 },
+                        { "id": "minecraft:saturation", "duration": 400, "amplifier": 1 },
+                        { "id": "minecraft:strength", "duration": 1000, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 420,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 腫頭胡蘿蔔魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "因為長期生活在毫無天敵的安逸水域，演化路線完全放飛自我，長出了一顆呆萌的巨型大腫頭。", "color": "gray", "italic": true },
+                  { "text": "吞下這隻無憂無慮的肥魚，胡蘿蔔素會活化你的雙眼，同時牠那滿滿的福氣會讓你變得無比幸運！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 62989, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ3YzYzZmYwZjQxYTUzMWU2MDgxZmM2NTg4MDQ3MDY5OWMxZGFhM2E0NzFhYzUxNGY0NTM0YzVlM2Y0YjVkZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:luck", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：安逸福壽胡蘿蔔皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "福氣與腫頭都達到世界頂點的胡蘿蔔魚皇！因為長得太像一根特大號人參，游動時充滿了與世無爭的安詳感。", "color": "red", "italic": true },
+                  { "text": "吞下牠將解鎖無敵的躺平福報！除了獲得極致好運與頭鐵防禦，更能直接淨化身上的邪惡詛咒！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 62989, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ3YzYzZmYwZjQxYTUzMWU2MDgxZmM2NTg4MDQ3MDY5OWMxZGFhM2E0NzFhYzUxNGY0NTM0YzVlM2Y0YjVkZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:luck", "duration": 2400, "amplifier": 2 },
+                        { "id": "minecraft:resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:bad_omen", "duration": 0, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 360,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 清脆小黃瓜魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "外觀帶著迷你西瓜條紋的微型魚類，散發著極其清爽的小黃瓜香氣。", "color": "gray", "italic": true },
+                  { "text": "咬下去嘎蹦脆且多汁，豐富的維生素精華會瞬間滋潤你的傷口並回復體力。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63912, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYwNjc5ZDA0YmQ3ZTIzMjVmZGYwZDE1ODNlMmMwY2Y4YWQ2NDQ4ZGIwZTU3NjA5NWJjZjI2MDU4ZTU1MzY3OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:health_boost", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：翡翠藤蔓瓜果皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "沉澱了整片翠綠大地生機的瓜果魚皇，游動時尾鰭會散落晶瑩的翡翠光點。", "color": "red", "italic": true },
+                  { "text": "吞下這口極致的清脆靈魂，磅礡的自然治癒力將瞬間湧遍全身，強行拉滿你的生命極限！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63912, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYwNjc5ZDA0YmQ3ZTIzMjVmZGYwZDE1ODNlMmMwY2Y4YWQ2NDQ4ZGIwZTU3NjA5NWJjZjI2MDU4ZTU1MzY3OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 400, "amplifier": 2 },
+                        { "id": "minecraft:health_boost", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+，
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 深淵白莓小魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "藍莓魚極其罕見的深淵變種，因長年棲息於照不到陽光的萬米海溝，鱗片已完全褪為雪白。", "color": "gray", "italic": true },
+                  { "text": "吞下這顆冰涼的深海盲眼珍珠，你的肉體將在短時間內與周圍的黑暗完美同化。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63916, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYzODczYzk3NDRhNzk4OWM1NDQ1YjBhYWQ3MGQzNGM5NTkxZTA5MzRhZTQ3ZWMwNWRkOTkxMThiNWNhMGEzOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:invisibility", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：幽冥深淵藍莓皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治無光深淵的蒼白帝王，身軀散發著如幽靈般的慘白微光，那是對地表生靈的古老詛咒。", "color": "red", "italic": true },
+                  { "text": "吞下這顆被深淵幽禁億萬年的蒼白核心，你將擺脫重力束縛，並獲得看穿世間一切黑暗的鬼眼！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63916, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYzODczYzk3NDRhNzk4OWM1NDQ1YjBhYWQ3MGQzNGM5NTkxZTA5MzRhZTQ3ZWMwNWRkOTkxMThiNWNhMGEzOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:invisibility", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:slow_falling", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:bad_omen", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 340,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 納米藍莓小魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "葡萄魚的遠親，體型甚至比葡萄魚還要更加迷你，如同一顆深藍色的野生藍莓。", "color": "gray", "italic": true },
+                  { "text": "極致多汁的藍莓果香精華能瞬間活化你的視網膜，讓黑夜在眼中宛如白晝般清晰。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63915, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM2MDc3MGVhMDlkZmQ0ZWE1MzA2M2Y2YTM5ZDNiOTVjMDMwZWJiYzQ3YzNlNTgxMDI3MDEyZWJjNDllMTAwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：極光繁星藍莓皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "聚集了整片海洋果香奧術的微型帝王，湛藍的鱗片如夜空中的極光般高貴璀璨。", "color": "red", "italic": true },
+                  { "text": "吞下這顆極致的海洋之眼，黑夜的帷幕將被徹底撕碎，並賦予你凡人無法捕捉的粒子級神速！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63915, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM2MDc3MGVhMDlkZmQ0ZWE1MzA2M2Y2YTM5ZDNiOTVjMDMwZWJiYzQ3YzNlNTgxMDI3MDEyZWJjNDllMTAwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 2000, "amplifier": 3 },
+                        { "id": "minecraft:slow_falling", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 350,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 迷你葡萄小魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "體型極其微小的神祕魚類，外觀呈現晶瑩的深紫色，像極了一顆剛摘下來的成熟葡萄。", "color": "gray", "italic": true },
+                  { "text": "因為身體輕盈無比，吞下牠後會讓你的步伐變得異常輕巧，甚至能緩慢地從高處飄落。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63914, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcwZDMxYzY1NTAxNDYxNTFiNTkxMjg5M2IzNjgzMWE0Nzg3ZTVkMWIwMGUyM2NiZjEzOGZiZDYxNjcxZWRkYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:slow_falling", "duration": 400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：水晶巨風葡萄皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "雖然是魚王，卻依舊保持著完美的小巧身形，鱗片散發著頂級葡萄酒般的醇厚奧術光澤。", "color": "red", "italic": true },
+                  { "text": "吞下這顆無上的外星瓊漿，重力將對你失去束縛，讓你化身為戰場上優雅飄逸的紫色殘影！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63914, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcwZDMxYzY1NTAxNDYxNTFiNTkxMjg5M2IzNjgzMWE0Nzg3ZTVkMWIwMGUyM2NiZjEzOGZiZDYxNjcxZWRkYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:slow_falling", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:jump_boost", "duration": 1000, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 400,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 狂笑鳳梨魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "外表酷似一顆長滿尖刺的熱帶鳳梨，卻長著一張如同萬聖節南瓜燈般的魔性大嘴。", "color": "gray", "italic": true },
+                  { "text": "吃下牠後，牠那充滿侵略性的尖牙利齒會賦予你驚人的啃咬與挖掘速度！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 64379, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDlhNTI2NzNjNzdhYzA3OWVkMzQ3MmI2OWZlNGU5MWJkMjgwMTlmMjhmM2U5ZDg1YmY5NGRmYWQ2ZTM5OGM0ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：巨齒南瓜鳳梨皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "熱帶海域的萬盛惡作劇之皇！龐大的金黃身軀在深海中咧嘴大笑，散發著奇異的螢光。", "color": "red", "italic": true },
+                  { "text": "吞下這口狂野的鳳梨靈魂，解鎖連黑曜石都能輕易咬碎的終極急迫神力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 64379, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDlhNTI2NzNjNzdhYzA3OWVkMzQ3MmI2OWZlNGU5MWJkMjgwMTlmMjhmM2U5ZDg1YmY5NGRmYWQ2ZTM5OGM0ZiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:haste", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:glowing", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 240,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 櫻桃炸彈魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "渾身通紅、永遠處於暴怒狀態的奇特魚類。體內積蓄著極不穩定的高壓火藥。", "color": "gray", "italic": true },
+                  { "text": "吞下牠會在你胃裡引發一場微型爆炸，瞬間激發出狂暴的戰意，並且免疫高溫！", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63917, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3YjZiOTQwMWFkODQ4NjI3NmFhYmY3Mjk5NzM0YThjYzYxMzg3MzRlZGMwY2YwNjljNWFkYzVmMTI2MjY3YSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.creeper.primed",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:hunger", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：核爆櫻桃魚皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "引燃深海火藥庫的終極怪魚之皇，哪怕只是輕輕搖晃牠，都有可能引發毀滅性災難。", "color": "red", "italic": true },
+                  { "text": "吞下牠將釋放毀天滅地的核爆神力！雖然能獲得無可匹敵的怪力，但爆炸衝擊也會讓你陷入短暫虛弱！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63917, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3YjZiOTQwMWFkODQ4NjI3NmFhYmY3Mjk5NzM0YThjYzYxMzg3MzRlZGMwY2YwNjljNWFkYzVmMTI2MjY3YSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.8,
+                  "animation": "eat",
+                  "sound": "entity.generic.explode",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 1600, "amplifier": 3 },
+                        { "id": "minecraft:fire_resistance", "duration": 2400, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 1 },
+                        { "id": "minecraft:weakness", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:hunger", "duration": 600, "amplifier": 2 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 75,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 遠洋黃鰭鮪魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "游動在遠洋深處的流線型獵手，鮮黃色的鰭在湛藍的海水中宛如一道閃電。", "color": "gray", "italic": true },
+                  { "text": "肉質極其肥美且充滿爆發力，吃下後能讓你的雙腿獲得在大洋中衝刺般的極致神速。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 63920, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1ZTQyY2Q4OTE2MWU1ODMzYTFiMzAwODI1MDVhZjYwNWM0YjBhNGZhNDVkMGY3NWNhYTZjYzZhZjA5NTM3OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：黑潮黃鰭鮪魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "橫渡整片黑潮的鮪魚之皇，身軀龐大無比，據說一生從不停止游動。", "color": "red", "italic": true },
+                  { "text": "吞下這口極致的深海頂級美味，無盡的洋流耐力將狂暴地解放你全身的位移極限！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 63920, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1ZTQyY2Q4OTE2MWU1ODMzYTFiMzAwODI1MDVhZjYwNWM0YjBhNGZhNDVkMGY3NWNhYTZjYzZhZjA5NTM3OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 16, "saturation": 2.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 2400, "amplifier": 3 },
+                        { "id": "minecraft:haste", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:health_boost", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 135,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 遠古腔棘魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "跨越億萬年歲月、曾與恐龍並肩生存的活化石。厚重的鱗片如鋼鐵般堅硬。", "color": "gray", "italic": true },
+                  { "text": "吃下牠後，那在深海中沉澱了無數世代的頑強生命力將融入你的骨血之中。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 67657, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkNjhiNmE5MzYzZGUyMzk2Zjk2N2E1NmMyZTM0YTJkMjNkYjAyZDYxN2RkMWEwZjY1NGE2ZWI3MWIwODc4In19fQ==" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.8,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 1000, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：不滅時光腔棘魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌深海時間結界的遠古魚皇，牠的肉體早已在時間之外，超脫了生死輪迴。", "color": "red", "italic": true },
+                  { "text": "吞下牠將解放永恆不滅的原始護盾，讓你在短時間內獲得近乎無敵的鋼鐵肉身！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 67657, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkNjhiNmE5MzYzZGUyMzk2Zjk2N2E1NmMyZTM0YTJkMjNkYjAyZDYxN2RkMWEwZjY1NGE2ZWI3MWIwODc4In19fQ==" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.8,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 2400, "amplifier": 2 },
+                        { "id": "minecraft:health_boost", "duration": 1600, "amplifier": 0 },
+                        { "id": "minecraft:absorption", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:hero_of_the_village", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 390,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 冰霜望遠鏡魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "長著一雙誇張突起大眼睛的冰海魚類，那雙眼球彷彿能穿透暴風雪的阻隔。", "color": "gray", "italic": true },
+                  { "text": "咬下一口，刺骨的寒意伴隨著極限的專注力注入大腦，大幅提升你的感官敏銳度。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 68149, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNmMjg3MjRmZmM1ODlmZjFjY2E4NGJlYzI4ZmQyNjU4NTdmYWY4YmFlY2Y0NGZmZjJkOTM4M2VkOWQ3YTc5OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：極光遠見望遠鏡魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "極地深淵中的全知觀測者，巨大的凸出雙眼在黑暗中閃爍著神祕的極光色彩。", "color": "red", "italic": true },
+                  { "text": "吞下牠將能用冰霜意志洞悉黑夜，並凝聚出一層抵禦物理衝擊與高熱的絕對冰晶護盾！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 68149, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNmMjg3MjRmZmM1ODlmZjFjY2E4NGJlYzI4ZmQyNjU4NTdmYWY4YmFlY2Y0NGZmZjJkOTM4M2VkOWQ3YTc5OCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:haste", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:absorption", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 380,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 晶瑩透明鮭魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身如同無瑕的水晶般完全透明，唯有在陽光折射下才會閃過一絲水潤的輪廓。", "color": "gray", "italic": true },
+                  { "text": "吃下後，牠的透明基因會短暫與你的皮囊同化，讓你消失在眾人的視線中。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 75859, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVjMWMwYTBmNGE0YzNjNDFmZGZmZTY0MTBkMzg2ZjNiMTliMjc0ZjU2NDY1MjM1ZTQwYmIwNGYzZGMxODRjYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：虛空水晶鮭魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "跨越無數激流與瀑布的水晶鮭魚之皇，身軀巨大卻能不留一絲痕跡地在水流中穿梭。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得極致的逆流爆發力，除了完美的潛行，更賦予你驚人的飛躍速度！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 75859, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVjMWMwYTBmNGE0YzNjNDFmZGZmZTY0MTBkMzg2ZjNiMTliMjc0ZjU2NDY1MjM1ZTQwYmIwNGYzZGMxODRjYiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:jump_boost", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:water_breathing", "duration": 1600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 140,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 星空安康魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "游動在群星與虛空裂縫間的古老安康魚，頭頂的誘餌是一顆微縮的星體奇點。", "color": "gray", "italic": true },
+                  { "text": "吞下牠能強行看透宇宙深處的黑暗，但肉體也會因直視虛空而受到微弱腐蝕。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 75833, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY1ZjRlYjA1Y2MwNTVmZDA5YzlkNjJkYjZlOWNhMGFiNTExN2QzNGM2MTI4ODk4MGIxMWQ1ZWI1NTc5MjM3MCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:wither", "duration": 100, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：虛空星流安康魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "吞噬了一整片星雲的虛空霸主，牠雙眼所及之處，連時間與重力都會產生扭曲。", "color": "red", "italic": true },
+                  { "text": "吞下牠將打破重力束縛獲得羽毛般的輕盈身軀，但在這群星魔力下你必須承受凋零的試煉！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 75833, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY1ZjRlYjA1Y2MwNTVmZDA5YzlkNjJkYjZlOWNhMGFiNTExN2QzNGM2MTI4ODk4MGIxMWQ1ZWI1NTc5MjM3MCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:slow_falling", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:conduit_power", "duration": 1600, "amplifier": 0 },
+                        { "id": "minecraft:wither", "duration": 200, "amplifier": 2 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 370,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 晶瑩冰塊魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身由不融化的極地冰晶構成，摸起來刺骨冰涼，正不斷散發著白色的寒氣。", "color": "gray", "italic": true },
+                  { "text": "吞下牠的瞬間，極寒能量會流遍全身，讓你在短時間內完全不懼怕任何高溫。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 90808, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExZTMzM2IyZWRiMjExNWU2M2I1N2ViMjdiNDRhMmFmYjcyOTU1Y2NjNTA0M2I1YzFmODNiYjZkODk0NmIwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "block.glass.break",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：萬年冰晶魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "沉睡在極地冰川最深處的遠古魚皇，牠的寒氣連岩漿都能強行凍結成黑曜石。", "color": "red", "italic": true },
+                  { "text": "吞下牠將在體表凝聚一層不滅的絕對零度冰甲，獲得免疫熔岩與物理衝擊的至高防禦！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 90808, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExZTMzM2IyZWRiMjExNWU2M2I1N2ViMjdiNDRhMmFmYjcyOTU1Y2NjNTA0M2I1YzFmODNiYjZkODk0NmIwMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "block.glass.break",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 3600, "amplifier": 1 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:resistance", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:absorption", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 430,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 黃色珊瑚魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "穿梭在溫暖珊瑚礁叢中的亮黃色熱帶魚，宛如一抹游動在水底的溫暖陽光。", "color": "gray", "italic": true },
+                  { "text": "吃下牠後，耀眼的陽光精華會注入眼簾，讓你在漆黑的深海也能洞悉萬物。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 10153, 22651, -101538],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzODJmYzhiZDM1OTlmNjY5YWVhNGE0NzU5YjgwODNjMjE5ZWYxNTllNTZjMjk3YTFhMzQ2MWZiMGNjY2JjZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:dolphins_grace", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：黃色珊瑚魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌熱帶暖流的烈陽精靈之皇，金黃色的鱗片能強行驅散海底最深沉的黑暗。", "color": "red", "italic": true },
+                  { "text": "吞下牠將釋放極致的奧術洋流螢光，在獲得無上神力的同時成為海中最耀眼的傳奇！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 10153, 99482, -101538],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzODJmYzhiZDM1OTlmNjY5YWVhNGE0NzU5YjgwODNjMjE5ZWYxNTllNTZjMjk3YTFhMzQ2MWZiMGNjY2JjZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:dolphins_grace", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:glowing", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:conduit_power", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 430,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 藍色珊瑚魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "穿梭在溫暖珊瑚礁叢中的亮藍色熱帶魚，鱗片倒映著湛藍的海水藍光。", "color": "gray", "italic": true },
+                  { "text": "吃下牠後，體內的海洋精華會讓你在水中變得像魚兒一樣靈巧敏捷。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 10153, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU1Zjc4MzBlZmVmMTljOTFmYjc5N2I1MTE2YjI5OTkzMmY1MzM1ZTJmN2ZmMTcwYjZkY2YwNGQ4MDlmM2U5NSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:dolphins_grace", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：藍色珊瑚魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "守護整片熱帶溫海的珊瑚化身，巨大的蔚藍身軀游動時會引導溫暖的洋流。", "color": "red", "italic": true },
+                  { "text": "吞下牠將與古老的海洋潮湧合而為一，獲得征服一切深海與礁岩的極致神力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 10153, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU1Zjc4MzBlZmVmMTljOTFmYjc5N2I1MTE2YjI5OTkzMmY1MzM1ZTJmN2ZmMTcwYjZkY2YwNGQ4MDlmM2U5NSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:dolphins_grace", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:conduit_power", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 360,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 紫色魔法金魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "閃爍著神祕紫色幽光的稀有金魚，據說長期浸泡在女巫的釀造釜中而產生了變異。", "color": "gray", "italic": true },
+                  { "text": "咬下去的瞬間，高濃度的魔法元素會刺激你的感官，讓你的皮囊變得如鋼鐵般堅固。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 98311, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNjOTYxYmM4YTZiYWYzMTc4ZDczNGE5NGQwODAyYzFkYjYzM2Q4OGZiMmE0YjEwMGRmYjU0ZTEzYzM5NTlmMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:bad_omen", "duration": 400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：紫色金魚皇 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "游動在奧術星海之中的金魚之皇，華麗的紫色尾鰭擺動時會灑下無數星塵。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得至高的奧術精神防護，你的存在本身將成為受村民愛戴的傳奇！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 98311, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNjOTYxYmM4YTZiYWYzMTc4ZDczNGE5NGQwODAyYzFkYjYzM2Q4OGZiMmE0YjEwMGRmYjU0ZTEzYzM5NTlmMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.4,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 1800, "amplifier": 2 },
+                        { "id": "minecraft:hero_of_the_village", "duration": 2400, "amplifier": 1 },
+                        { "id": "minecraft:health_boost", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 210,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 海藻偽裝怪魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身覆蓋著厚厚一層深海海藻與青苔的奇特怪魚，靜止時與普通海草無異。", "color": "gray", "italic": true },
+                  { "text": "吃下後能獲得如同海藻般完美的偽裝能力，讓周圍的生物一時間無法察覺你的存在。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 11560, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZiNGY2NDgzNzU3NmVjYWYyZTRlNjIyMmU2NzM0N2M5ZDYwNTRlOTQ0OTFjMDQzMjk5YjFlZDczMmI2M2FhMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:nausea", "duration": 140, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：海藻偽裝怪魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "古老海草床中的隱形君王，身軀巨大卻能完美消融在任何一株水生植物的陰影中。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得至高的海洋潛行加護，並化身為與洋流合一的深海無形掠食者！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 11560, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZiNGY2NDgzNzU3NmVjYWYyZTRlNjIyMmU2NzM0Y2Y5ZDYwNTRlOTQ0OTFjMDQzMjk5YjFlZDczMmI2M2FhMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:invisibility", "duration": 1800, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 390,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 4546B 極地大眼仔 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "來自 4546B 星球凍土海域的特殊亞種，為了在冰川下偽裝而演化出雪白色的外殼。", "color": "gray", "italic": true },
+                  { "text": "散發著淡淡的徹骨寒氣，吃下後能讓你在惡劣環境中保持極度清醒與敏捷。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 56033, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkYWQyZTEzNTBhYTg2ZjQwMjcxY2YxN2M1MWEyZWE1YzVlMGRlYjg3NDY0ZWM3MjVjYzczNjI2ZWExY2Q1MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：極地大眼仔王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治極寒洋流的冰霜領主，據說牠吐出的氣息能瞬間凍結一整片海域。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得絕對零度的冰霜護盾，甚至能用極寒能量完美免疫岩漿的傷害！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 56033, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkYWQyZTEzNTBhYTg2ZjQwMjcxY2YxN2M1MWEyZWE1YzVlMGRlYjg3NDY0ZWM3MjVjYzczNjI2ZWExY2Q1MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 15, "saturation": 1.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:haste", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 1 },
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:absorption", "duration": 800, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 420,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 4546B 大眼仔 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "來自未知外星深海的奇特生物，長著一雙巨大且充滿好奇心的眼睛。", "color": "gray", "italic": true },
+                  { "text": "牠的側翼能幫你在水中快速游動，巨大的眼球能強行看透任何黑暗的深淵。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 56034, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYxMDY3MTlmYzg1MDBkMzUxN2Y4NmU4NDcwMWIzYzdmMTJkMGNiM2ZhMGViMzQ2ODMyMDE3NGRmNDQxNTYzZSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：外星深海大眼仔王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "4546B 星球的無冕之皇，體型巨大，體表散發著淡淡的熱能螢光。", "color": "red", "italic": true },
+                  { "text": "吞下牠就像吃下了完美的熟製外星大餐，能瞬間解放人類在極限深海的所有潛能！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 56034, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYxMDY3MTlmYzg1MDBkMzUxN2Y4NmU4NDcwMWIzYzdmMTJkMGNiM2ZhMGViMzQ2ODMyMDE3NGRmNDQxNTYzZSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 15, "saturation": 1.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 380,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 黃色果凍魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身由半透明的黃色凝膠構成，捏起來彈性十足，散發著微甜的水果香氣。", "color": "gray", "italic": true },
+                  { "text": "吃下去後雙腿會充滿驚人的彈性，讓你能夠輕鬆躍過平時無法跨越的障壁。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 11219, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFjMTVhMjA4YjU4ZDA0Zjg5MmUxZDYwZmU4M2JmYWI5YWQwYjljZmMzMTAzMTkwMjI0ZmEyMjQ2NDAzNTA4OSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "entity.slime.squish",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:jump_boost", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：黃色果凍魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "果凍界的至高統治者，龐大的身軀宛如一塊巨大的黃金布丁，能吸收一切物理衝擊。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得史萊姆般的極致彈跳力，並在空中化解所有墜落時的重力衝擊！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 11219, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFjMTVhMjA4YjU4ZDA0Zjg5MmUxZDYwZmU4M2JmYWI5YWQwYjljZmMzMTAzMTkwMjI0ZmEyMjQ2NDAzNTA4OSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.slime.squish_small",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:jump_boost", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:slow_falling", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 400,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 紅色大嘴怪魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "擁有一張誇張大嘴的血紅色怪魚，牙齒細密，似乎能吞下比自己大兩倍的獵物。", "color": "gray", "italic": true },
+                  { "text": "吞下牠會燃起體內狂暴的戰意，但同時也會讓你產生強烈的空腹感。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 11377, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlY2U4MDE5MjVhNmE1NzU1NmVmMDQzNTgyMjYxMjI2YTljOGJiNWE4MzRhNTI0ZGFkMDBmZWU3ZjMzOTViMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:hunger", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：紅色大嘴怪魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "傳說中能吞噬洋流的暴食惡魔之王，那張巨口彷彿連光線都能一併吸入。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得無可匹敵的蠻荒怪力，但也必須承受幾乎燒灼內臟的極致飢餓！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 11377, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlY2U4MDE5MjVhNmE1NzU1NmVmMDQzNTgyMjYxMjI2YTljOGJiNWE4MzRhNTI0ZGFkMDBmZWU3ZjMzOTViMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 1200, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:absorption", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:hunger", "duration": 600, "amplifier": 2 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 450,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 綠色活力魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "散發著如同初春嫩芽般青翠色彩的魚類，體內蘊含著純淨的海洋生機。", "color": "gray", "italic": true },
+                  { "text": "咬下一口，濃郁的自然活力將流遍全身，迅速撫平你受到的傷害。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 12565, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE3MDIzOTkxMzEwM2Y4MzE1OWVkNWU0OTZkNWM3NDkzNGIwNTdkMjA5OTgzZTJlNTE3NTZjMzRlNzUwYWQ3MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 160, "amplifier": 0 },
+                        { "id": "minecraft:saturation", "duration": 60, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：綠色活力魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌翡翠海洋生機的古老魚皇，牠游過的水域連珊瑚都會瘋狂生長。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得源源不絕的生命泉源，讓你的肉體在短時間內不老不死！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 12565, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE3MDIzOTkxMzEwM2Y4MzE1OWVkNWU0OTZkNWM3NDkzNGIwNTdkMjA5OTgzZTJlNTE3NTZjMzRlNzUwYWQ3MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:regeneration", "duration": 300, "amplifier": 2 },
+                        { "id": "minecraft:saturation", "duration": 200, "amplifier": 1 },
+                        { "id": "minecraft:health_boost", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 350,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 紫色閃光魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "外表看似樸素的紫色魚類，但身上隱隱約約散發著獨特的閃光晶瑩。", "color": "gray", "italic": true },
+                  { "text": "據說牠體內積蓄著等待蛻變的神秘力量，能賦予捕獲者微弱的好運。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 12708, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkwN2EzNjQ1NzJjMjg0MGU0NmQyZjNlYjE0Y2E0NzU5ZTEyZDFlYzk2OGU4ZThkNmQ5NTk4YjhiMGM0ZDMyOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：紫色閃光魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "跨越命運界線的閃光魚中之王，紫色的鱗片在陽光下會反射出彩虹般的極光。", "color": "red", "italic": true },
+                  { "text": "吞下牠將能引導出大海的潮湧加護，徹底解放驚人的水底移動潛能！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 12708, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkwN2EzNjQ1NzJjMjg0MGU0NmQyZjNlYjE0Y2E0NzU5ZTEyZDFlYzk2OGU4ZThkNmQ5NTk4YjhiMGM0ZDMyOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 1800, "amplifier": 2 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:conduit_power", "duration": 1600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 300,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 水母 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "半透明的柔軟海洋生物，在蔚藍的海水中隨著洋流優雅地漂浮。", "color": "gray", "italic": true },
+                  { "text": "咬下去的瞬間，體內的水分會讓你身體變輕，但也別忘了牠帶電的觸手。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 40325, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2MTcyODE5MmI3ZDU5NmQwZTdkYjg2YjkzM2NlYWMyNmQwYzg1MDIwNmU3NDljZmNlYTg2NjM1OTMyNzFjMyJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:levitation", "duration": 100, "amplifier": 0 },
+                        { "id": "minecraft:slowness", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:poison", "duration": 100, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：水母王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "幽藍深海中的幻影巨傘，千萬條觸手擺動時能引發毀滅性的海底風暴。", "color": "red", "italic": true },
+                  { "text": "吞下牠將打破重力束縛直衝雲霄，並在水下獲得洋流精靈的極致全速！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 40325, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2MTcyODE5MmI3ZDU5NmQwZTdkYjg2YjkzM2NlYWMyNmQwYzg1MDIwNmU3NDljZmNlYTg2NjM1OTMyNzFjMyJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:levitation", "duration": 160, "amplifier": 2 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:poison", "duration": 300, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+，
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 仙人掌河豚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "全身長滿仙人掌般尖銳倒刺的奇特河豚，光是拿在手上就覺得扎手。", "color": "gray", "italic": true },
+                  { "text": "吃下去會有些微的中毒感，但牠的硬刺會讓你的皮膚變得如植物外皮般堅韌。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 40880, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwODAwODAyNjk3NjY5MWNmOWRlYzMyMGJhNmFjMmFkYTA2ZDllZjc5NjNkY2Y0Nzg1OTczYmM4MTYxM2IzZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:resistance", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：仙人掌河豚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "荒漠綠洲中的荊棘之皇，據說連末影龍撞到牠都會被扎得哇哇大叫。", "color": "red", "italic": true },
+                  { "text": "吞下牠將釋放體內的針刺潛能，獲得無與倫比的防禦與水下生存力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 40880, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwODAwODAyNjk3NjY5MWNmOWRlYzMyMGJhNmFjMmFkYTA2ZDllZjc5NjNkY2Y0Nzg1OTczYmM4MTYxM2IzZCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 400, "amplifier": 2 },
+                        { "id": "minecraft:nausea", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:resistance", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:absorption", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 500,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 沙子魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "常年潛伏在炙熱乾燥的黃沙之中，外皮帶著粗糙的砂礫質感。", "color": "gray", "italic": true },
+                  { "text": "體內蘊含著耐高熱的奇妙能量，吃下後能短暫對高溫免疫。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 43050, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcwMDg3ZGRlMTMwODQ2YzBlOTc1ZmU2ODQzNWQ4OTQwZjA5MzM5ZmFiYzYwMjZhOTY5OWZkYjYxMmI0ZjEyMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：沙子魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治無垠荒漠的烈陽幻影，據說牠能直接在岩漿中如履平地。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得免疫熔岩的極致神力，並讓你的雙手獲得風暴般的挖掘速度！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 43050, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcwMDg3ZGRlMTMwODQ2YzBlOTc1ZmU2ODQzNWQ4OTQwZjA5MzM5ZmFiYzYwMjZhOTY5OWZkYjYxMmI0ZjEyMSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:fire_resistance", "duration": 3600, "amplifier": 1 },
+                        { "id": "minecraft:haste", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:speed", "duration": 1200, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "☠️ 禁忌詛咒：HIM 白眼河豚 ☠️", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "【未知的代碼錯誤】牠擁有一雙空洞的白眼，正死死盯著螢幕前的你。", "color": "red", "italic": true },
+                  { "text": "「牠從未被刪除。」吃下牠，代價是出賣你對這個世界的靈魂...", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [666, 40870, 666, -40870],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNmYzBjMTg2ZjZhZmFiYjFiNDAwOTE1ODRlNDM3M2E1YjY4ZjdhMzNmZjM1MjlkZWI5OTY3N2JhYWEzY2IxYyJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 20, "saturation": 2.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 4.0,
+                  "animation": "eat",
+                  "sound": "entity.wither.spawn",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 3600, "amplifier": 4 },
+                        { "id": "minecraft:resistance", "duration": 3600, "amplifier": 3 },
+                        { "id": "minecraft:health_boost", "duration": 3600, "amplifier": 4 },
+                        { "id": "minecraft:bad_omen", "duration": 12000, "amplifier": 4 },
+                        { "id": "minecraft:blindness", "duration": 400, "amplifier": 0 },
+                        { "id": "minecraft:nausea", "duration": 600, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 螢光河豚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "融合了發光烏賊基因的奇特河豚，體表閃爍著迷幻的青色光芒。", "color": "gray", "italic": true },
+                  { "text": "雖然牠的毒素與墨汁會讓你短暫失明與痛苦，但也能強行點亮你的深海視界。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 40888, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5ZjJhOGFjODU3NzZhM2YxODVjM2Q5YmQ4NDliMjVkNWZhZGY0YWNkYTY2Njg2ZDlkODIxMThlOTNmZGIzOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 3, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:blindness", "duration": 100, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：螢光河豚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "霓虹深海中的劇毒霸主，巨大的帶刺身軀散發著令人眩目的致命幽光。", "color": "red", "italic": true },
+                  { "text": "吞下牠將體驗一場極度瘋狂的感官風暴，並獲得在無光之海自由呼吸的古老能力。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 40888, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ5ZjJhOGFjODU3NzZhM2YxODVjM2Q5YmQ4NDliMjVkNWZhZGY0YWNkYTY2Njg2ZDlkODIxMThlOTNmZGIzOSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 400, "amplifier": 2 },
+                        { "id": "minecraft:blindness", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:nausea", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:night_vision", "duration": 3600, "amplifier": 4 },
+                        { "id": "minecraft:glowing", "duration": 1800, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 400,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 化石魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "歷經千萬年地層擠壓而成的石化古生物，外殼硬度堪比黑曜石。", "color": "gray", "italic": true },
+                  { "text": "咬下去的瞬間，牙齒能感受到來自遠古大地的堅韌加護，但身體會變得相當沉重。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 48275, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzYTM2MzM2OGVkMWUwNmNlZTM5MDA3MTdmMDYyZTAyZWMzOWFlZTE3NDc2NzUzOTIyNTViNDhmN2Y4MzYwMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 800, "amplifier": 1 },
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 },
+                        { "id": "minecraft:slowness", "duration": 300, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：化石魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "沉睡於基岩深處的初源地殼之皇，身軀早已與世界本身的岩脈融為一體。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得堅不可摧的至高防禦，但代價是如同泰山壓頂般的遲緩步伐。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 48275, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzYTM2MzM2OGVkMWUwNmNlZTM5MDA3MTdmMDYyZTAyZWMzOWFlZTE3NDc2NzUzOTIyNTViNDhmN2Y4MzYwMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:resistance", "duration": 1600, "amplifier": 3 },
+                        { "id": "minecraft:haste", "duration": 1600, "amplifier": 2 },
+                        { "id": "minecraft:absorption", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:slowness", "duration": 600, "amplifier": 2 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 300,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 變異輻射魚 ★", "color": "green", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "在廢水與未知輻射中誕生的變異魚類，鱗片散發著詭異的螢光綠。", "color": "gray", "italic": true },
+                  { "text": "蘊含著打破肉體極限的狂暴怪力，但致命的輻射正嚴重侵蝕著生命。", "color": "dark_green", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 52822, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlMjM2M2MyZDQxYTlkMzIzYmE2MjVkZThjMDYzNzA2M2EzNmZlODVhMDQ1ZGUyNzVhN2I3NzM5ZGVkNjA1MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:speed", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:wither", "duration": 140, "amplifier": 1 },
+                        { "id": "minecraft:hunger", "duration": 300, "amplifier": 1 },
+                        { "id": "minecraft:nausea", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：變異輻射魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "核爆深淵中的終極污染源，光是直視牠的身軀就會感到劇烈頭痛。", "color": "red", "italic": true },
+                  { "text": "吞下牠將獲得毀滅性的神魔之力，但稍有不慎便會瞬間引火自焚！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 52822, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlMjM2M2MyZDQxYTlkMzIzYmE2MjVkZThjMDYzNzA2M2EzNmZlODVhMDQ1ZGUyNzVhN2I3NzM5ZGVkNjA1MSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 10, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:strength", "duration": 1200, "amplifier": 3 },
+                        { "id": "minecraft:speed", "duration": 1200, "amplifier": 2 },
+                        { "id": "minecraft:resistance", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:wither", "duration": 200, "amplifier": 3 },
+                        { "id": "minecraft:blindness", "duration": 160, "amplifier": 0 },
+                        { "id": "minecraft:nausea", "duration": 400, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 珠光魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "鱗片如珍珠與歐泊石般交織閃爍，是被大海親吻過的無價藝術品。", "color": "gray", "italic": true },
+                  { "text": "散發著富貴的氣息，據說能極大程度地扭轉捕獲者的命運天平。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 56078, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FiZTg3ODM0OTRkMTEzZmQ3MTk4OGMyMGVjMTQxYzVhYjhkZjdhMzY4YTRiNzQ5NTBkZjkxZjZlZTI0MzE1ZSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:bad_omen", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：珠光魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌海洋財富神話的至高無價之皇，其身軀耀眼到連陽光都會為之黯淡。", "color": "red", "italic": true },
+                  { "text": "吃下牠將獲得幸運女神的終極眷顧，讓你所到之處皆化為繁華的慶典！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 56078, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FiZTg3ODM0OTRkMTEzZmQ3MTk4OGMyMGVjMTQxYzVhYjhkZjdhMzY4YTRiNzQ5NTBkZjkxZjZlZTI0MzE1ZSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 15, "saturation": 1.2 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 2400, "amplifier": 4 },
+                        { "id": "minecraft:hero_of_the_village", "duration": 2400, "amplifier": 2 },
+                        { "id": "minecraft:glowing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 安康魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "來自漆黑萬米深海的奇蹟活化石，頭頂的小燈泡散發著神祕的生物幽光。", "color": "gray", "italic": true },
+                  { "text": "吞下牠將點亮你的雙眼，讓你短暫擁有看穿一切黑暗的深海視線。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 81333, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEzOTYwMzIzZGZkMzFiNGY2MzM5ZWEwNThlMDVjMzBmYjk2Yzc1NzA0NzU5OGYxMzVlNTQ1MGZhNWQ3ZWY2MiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：安康魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌古老深海幽冥的終極微光之主，牠的燈火能吸引所有迷失的靈魂。", "color": "red", "italic": true },
+                  { "text": "吃下牠將開啟永久般的永夜視界，並讓你的挖掘潛能如深海火山般爆發！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 81333, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjEzOTYwMzIzZGZkMzFiNGY2MzM5ZWEwNThlMDVjMzBmYjk2Yzc1NzA0NzU5OGYxMzVlNTQ1MGZhNWQ3ZWY2MiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 0.9 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:night_vision", "duration": 4800, "amplifier": 4 },
+                        { "id": "minecraft:glowing", "duration": 1800, "amplifier": 0 },
+                        { "id": "minecraft:haste", "duration": 1200, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 遠古魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "散發著像素顆粒微光的古老魚類，其花紋屬於很久很久以前的舊世界。", "color": "gray", "italic": true },
+                  { "text": "體內蘊藏著不受時空法則約束的遠古神速之力。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 17897, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZiZTFiZTE5ZTRmZmFiYTk3ZDYxYmVlZjdjYTMwMTBiNjI5OTZjNjQxZTU3MDg0ZmMzNjRhNmYzZWIxNDEzOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 800, "amplifier": 2 },
+                        { "id": "minecraft:haste", "duration": 800, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：遠古魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "撕裂時空裂縫而來的終極初源之王，全身上下流淌著舊世界的編碼殘影。", "color": "red", "italic": true },
+                  { "text": "吃下牠將使你的速度超越時間的極限，甚至讓你的身軀在現世中短暫消失！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 17897, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZiZTFiZTE5ZTRmZmFiYTk3ZDYxYmVlZjdjYTMwMTBiNjI5OTZjNjQxZTU3MDg0ZmMzNjRhNmYzZWIxNDEzOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 15, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:speed", "duration": 2000, "amplifier": 4 },
+                        { "id": "minecraft:haste", "duration": 2000, "amplifier": 2 },
+                        { "id": "minecraft:invisibility", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1000,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 普通鱈魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "海洋中最普遍、最樸實無華的魚類，成群結隊地在海中游動。", "color": "gray", "italic": true },
+                  { "text": "原汁原味的經典生鱈魚，吃起來平淡卻能填飽肚子。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 17898, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：普通鱈魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統率無盡鱈魚大軍的無名王者，體型比普通鱈魚大上數倍。", "color": "red", "italic": true },
+                  { "text": "蘊含著深海最古老而穩重的加護，賜予你無比堅韌的水下身軀。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 17898, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:resistance", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 350,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 貴族鮭魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "戴著精緻單片眼鏡的優雅紳士，一舉一動都充滿了上流社會的教養。", "color": "gray", "italic": true },
+                  { "text": "吃下牠能讓你散發出高貴且不可侵犯的威嚴光芒。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 93730, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdjYTFjOWQ0M2MyZWVmMmYxNWFlMTA4ODNiMDEwNzIwZGU0NjU2N2VlYzQ1NmY5M2NmNzVjMTYxZDQ3NDE1NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.6 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:bad_omen", "duration": 3600, "amplifier": 0 },
+                        { "id": "minecraft:glowing", "duration": 400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：貴族鮭魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "執掌深海社交界的終極大公爵，聽說連海底神殿的守衛見到牠都要脫帽致敬。", "color": "red", "italic": true },
+                  { "text": "擁有至高無上的名望與驚人的權勢，吃下牠將開啟一場命運的考驗。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 93730, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdjYTFjOWQ0M2MyZWVmMmYxNWFlMTA4ODNiMDEwNzIwZGU0NjU2N2VlYzQ1NmY5M2NmNzVjMTYxZDQ3NDE1NCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 14, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:bad_omen", "duration": 7200, "amplifier": 4 },
+                        { "id": "minecraft:hero_of_the_village", "duration": 1800, "amplifier": 1 },
+                        { "id": "minecraft:haste", "duration": 1200, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1000,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 普通鮭魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "身形矯健的紅褐色鮭魚，在冰冷的溪流中逆流前行。", "color": "gray", "italic": true },
+                  { "text": "非常傳統且常見的野生魚類，吃起來有著淡淡的鮮味。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 71327, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYjVjZTc4MWNmMDE3MjI0YmFjY2Q5ZGUzNjdlNDE2OTFiMzNhZDRkODRjMDNlNDk4NDQwNTIxNTM0NjVhNyJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 2, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：普通鮭魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "跨越無數險峻瀑布與急流的破浪王者，鱗片充滿了戰鬥的痕跡。", "color": "red", "italic": true },
+                  { "text": "吃下牠能獲得撕裂浪潮、躍過高山的激流之力！", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 71327, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYjVjZTc4MWNmMDE3MjI0YmFjY2Q5ZGUzNjdlNDE2OTFiMzNhZDRkODRjMDNlNDk4NDQwNTIxNTM0NjVhNyJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:jump_boost", "duration": 1200, "amplifier": 1 },
+                        { "id": "minecraft:speed", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1000,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 普通小丑魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "色彩斑斕的經典熱帶小魚，在水裡游動時非常引人注目。", "color": "gray", "italic": true },
+                  { "text": "這是一隻非常普通的觀賞魚，吃起來似乎沒什麼特別的效果。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 22794, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1MTBiMzAxYjA4ODYzOGVjNWM4NzQ3ZTJkNzU0NDE4Y2I3NDdhNWNlNzAyMmM5YzcxMmVjYmRjNWY2ZjA2NSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 1, "saturation": 0.1 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：普通小丑魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "無數小丑魚群的真正領袖，游動時彷彿能號令整片珊瑚礁。", "color": "red", "italic": true },
+                  { "text": "吃下牠將獲得大海的認可，賦予你自由穿梭於水底的神秘加護。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 22794, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1MTBiMzAxYjA4ODYzOGVjNWM4NzQ3ZTJkNzU0NDE4Y2I3NDdhNWNlNzAyMmM5YzcxMmVjYmRjNWY2ZjA2NSJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 8, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:conduit_power", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 2400, "amplifier": 0 },
+                        { "id": "minecraft:dolphins_grace", "duration": 600, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 金小丑魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "穿梭於海葵間的金色舞者，天生自帶令人愉悅的歡樂魔力。", "color": "gray", "italic": true },
+                  { "text": "據說把牠帶回村莊，能讓所有村民對你展露最真誠的笑容。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 59572, 22651, -19940],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNlNjY4ODZhMzRlZWJiNTIwMzBmMGYzM2ZiZTYwYjcwYzY3ZGRjOTE4ZmFlZTQ1YTQyN2QzZjY4NzMwM2E4In19fQ==" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.5 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:hero_of_the_village", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:mining_fatigue", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：金小丑魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "海底馬戲團的至高謝幕者，牠的黃金條紋閃爍著慶典般的狂歡光芒。", "color": "red", "italic": true },
+                  { "text": "吃下牠將帶你體驗一場飛向天際的無重力雜耍，雖然過程有點暈眩。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 59572, 99482, -88122],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNlNjY4ODZhMzRlZWJiNTIwMzBmMGYzM2ZiZTYwYjcwYzY3ZGRjOTE4ZmFlZTQ1YTQyN2QzZjY4NzMwM2E4In19fQ==" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:hero_of_the_village", "duration": 3600, "amplifier": 4 },
+                        { "id": "minecraft:levitation", "duration": 100, "amplifier": 1 },
+                        { "id": "minecraft:slow_falling", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:nausea", "duration": 200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 金鱈魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "極其平凡的鱈魚之中誕生的異數，通體散發著祥和的金黃微光。", "color": "gray", "italic": true },
+                  { "text": "據說能為捕獲牠的漁夫帶來微小的純粹幸運。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 59571, 22651, -19941],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAwY2I5NmJmNjJhNTJmZjdiYTc0ZDM5MjcyMTZhMWI1OTM0YjA3YTY2NWI4MGY5ODgzNTBmMzVhYTZlOWVkOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 5, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 600, "amplifier": 0 },
+                        { "id": "minecraft:regeneration", "duration": 100, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：金鱈魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "潛伏於水底深處的古老財富化身，雙眼如寶石般耀眼。", "color": "red", "italic": true },
+                  { "text": "吞下牠的人將獲得命運女神的眷顧，但耀眼的光芒將讓你無所遁形。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 59571, 99482, -88123],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAwY2I5NmJmNjJhNTJmZjdiYTc0ZDM5MjcyMTZhMWI1OTM0YjA3YTY2NWI4MGY5ODgzNTBmMzVhYTZlOWVkOCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 12, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:luck", "duration": 1800, "amplifier": 2 },
+                        { "id": "minecraft:glowing", "duration": 1200, "amplifier": 0 },
+                        { "id": "minecraft:hero_of_the_village", "duration": 2400, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+,
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 金河豚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "鱗片閃爍著如純金般耀眼的光澤。", "color": "gray", "italic": true },
+                  { "text": "傳說中，只有極度幸運的漁夫才能在神祕海域中一睹牠的真面目。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [117901063, 4015, 4124, -1257404368],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4YjA1MzZmNjRiMGJmZmE4Mjg4Njk2ODMzN2YwOWEwMGZhN2UwN2YxNjA0NDc1ZDczODMxNmJiYzRhZThhMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 4, "saturation": 0.3 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 400, "amplifier": 1 },
+                        { "id": "minecraft:nausea", "duration": 300, "amplifier": 0 },
+                        { "id": "minecraft:water_breathing", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：金河豚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "統治深海神祕流域的至高王者，鱗片流淌著令人窒息的暗金光芒。", "color": "red", "italic": true },
+                  { "text": "蘊含著無上力量的同時，也伴隨著凡人無法承受的致命劇毒。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [20485719, 9951, 3812, -958102481],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY4YjA1MzZmNjRiMGJmZmE4Mjg4Njk2ODMzN2YwOWEwMGZhN2UwN2YxNjA0NDc1ZDczODMxNmJiYzRhZThhMiJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 20, "saturation": 1.0 },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 1200, "amplifier": 4 },
+                        { "id": "minecraft:nausea", "duration": 600, "amplifier": 2 },
+                        { "id": "minecraft:blindness", "duration": 200, "amplifier": 0 },
+                        { "id": "minecraft:regeneration", "duration": 600, "amplifier": 2 },
+                        { "id": "minecraft:resistance", "duration": 2400, "amplifier": 1 },
+                        { "id": "minecraft:strength", "duration": 2400, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "★ 金鮭魚 ★", "color": "gold", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "逆流而上的金色弧光，體內蘊藏著躍過龍門的激流之力。", "color": "gray", "italic": true },
+                  { "text": "肉質極其肥美，但野生鮭魚特有的猛烈寄生毒素也不容小覷。", "color": "yellow", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [11597, 59570, 22651, -19942],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM5NjFiNWFhODQ1NTY2YTQ3ODEyNzIyYzY1ZmMyOTYyNzMyYjI5N2IxN2Y2OWMyNzA5OGQxMGU5MTJkNDgxMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 6, "saturation": 0.4 },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 300, "amplifier": 1 },
+                        { "id": "minecraft:hunger", "duration": 400, "amplifier": 1 },
+                        { "id": "minecraft:jump_boost", "duration": 900, "amplifier": 1 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "👑 傳說之王：金鮭魚王 👑", "color": "dark_red", "bold": true, "underlined": true, "italic": false },
+                "minecraft:lore": [
+                  { "text": "永恆逆流的破浪之皇，其巨大的黃金身軀曾躍過無數激流瀑布。", "color": "red", "italic": true },
+                  { "text": "吃下牠能獲得撕裂浪潮的速度，但其沉積一生的烈毒也將瞬間爆發。", "color": "dark_purple", "italic": true }
+                ],
+                "minecraft:profile": {
+                  "id": [22354, 59570, 99482, -88124],
+                  "properties": [{ "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM5NjFiNWFhODQ1NTY2YTQ3ODEyNzIyYzY1ZmMyOTYyNzMyYjI5N2IxN2Y2OWMyNzA5OGQxMGU5MTJkNDgxMCJ9fX0=" }]
+                },
+                "minecraft:food": { "nutrition": 14, "saturation": 0.8 },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        { "id": "minecraft:poison", "duration": 1000, "amplifier": 3 },
+                        { "id": "minecraft:nausea", "duration": 600, "amplifier": 1 },
+                        { "id": "minecraft:speed", "duration": 1800, "amplifier": 2 },
+                        { "id": "minecraft:jump_boost", "duration": 1800, "amplifier": 3 },
+                        { "id": "minecraft:dolphins_grace", "duration": 1200, "amplifier": 0 }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [0, 0, 0, 0],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5ZTJhNDUyMDhjYjIxNWEwYWQzYmEyMWVkZjEyMTE1ZTAxNDk5MTMyOTg5MzhhYjU1MTliODFhMzAxNTZjMSJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "西伯利亞霜燃烈酒",
+		"description": "📝【配方】地獄疙瘩 × 16\n🧪【效果】力量 II (3分) + 抗火 (5分) + 強烈反胃 (10秒)",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:special/cranberry_symphony",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [0, 0, 0, 0],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5ZTJhNDUyMDhjYjIxNWEwYWQzYmEyMWVkZjEyMTE1ZTAxNDk5MTMyOTg5MzhhYjU1MTliODFhMzAxNTZjMSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1ZDkyZDQyNjI3ODhjOTYwODhlNDRlMDE1NzBkY2U5MzgxODRiZjQ3ZjUzMTFkZjI5NmMzZDliNzhkYTUifX19"
+            }
+          ]
+        }
+      }
+    },
+    "title": "B-52 轟炸機·極限分層特調",
+    "description": "📝【配方】名酒 × 1 + 威士忌 × 1 + 任意飲料 × 3 + 火藥 × 1\n🧪【效果】爆裂轟炸 (劇烈風爆衝擊波、極速力量與後坐力推進)\n🏷️【標籤】特調 (special_brew), famous_liquor (famous_liquor), cocktail (cocktail), purple (purple)",
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:special/tequila_sunrise_cocktail",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE1ZDkyZDQyNjI3ODhjOTYwODhlNDRlMDE1NzBkY2U5MzgxODRiZjQ3ZjUzMTFkZjI5NmMzZDliNzhkYTUifX19"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

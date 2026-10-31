@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "",
+          "id": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E2MjNjNzQwODdmNzRmZTRmOGVhODZhODYzYTI0MDA3MTI1Y2I0Y2U0ZTc3Yzg1NmY0ODU1ODUzN2UzYmY2NCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "斯拉夫經典伏特加 (晶釀)",
+    "description": "📝【配方】馬鈴薯 × 16 + 青金石 × 1\n🧪【效果】急迫 II (2分) + 飽食度滿溢 + 強烈反胃 (8秒)\n🏷️【標籤】名酒 (famous_liquor), 伏特加 (vodka), 青色 (cyan)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:golden/macallan",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "name": "",
+                "id": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E2MjNjNzQwODdmNzRmZTRmOGVhODZhODYzYTI0MDA3MTI1Y2I0Y2U0ZTc3Yzg1NmY0ODU1ODUzN2UzYmY2NCJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

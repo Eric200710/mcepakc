@@ -1,0 +1,737 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 6000,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 普通鮭魚 ★",
+                  "color": "white",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "身形矯健的紅褐色鮭魚，在冰冷的溪流中逆流前行。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "非常傳統且常見的野生魚類，吃起來有著淡淡的鮮味。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    71327,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYjVjZTc4MWNmMDE3MjI0YmFjY2Q5ZGUzNjdlNDE2OTFiMzNhZDRkODRjMDNlNDk4NDQwNTIxNTM0NjVhNyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 0.43
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat"
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "salmon",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：普通鮭魚王 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "跨越無數險峻瀑布與急流的破浪王者，鱗片充滿了戰鬥的痕跡。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吃下牠能獲得撕裂浪潮、躍過高山的激流之力！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    71327,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYjVjZTc4MWNmMDE3MjI0YmFjY2Q5ZGUzNjdlNDE2OTFiMzNhZDRkODRjMDNlNDk4NDQwNTIxNTM0NjVhNyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 15.61
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:jump_boost",
+                          "duration": 1200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 1200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:water_breathing",
+                          "duration": 2400,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "salmon",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 貴族鮭魚 ★",
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "戴著精緻單片眼鏡的優雅紳士，一舉一動都充滿了上流社會的教養。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "吃下牠能讓你散發出高貴且不可侵犯的威嚴光芒。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    93730,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdjYTFjOWQ0M2MyZWVmMmYxNWFlMTA4ODNiMDEwNzIwZGU0NjU2N2VlYzQ1NmY5M2NmNzVjMTYxZDQ3NDE1NCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.7
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:bad_omen",
+                          "duration": 3600,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:glowing",
+                          "duration": 400,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "salmon",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：貴族鮭魚王 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "執掌深海社交界的終極大公爵，聽說連海底神殿的守衛見到牠都要脫帽致敬。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "擁有至高無上的名望與驚人的權勢，吃下牠將開啟一場命運的考驗。",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    93730,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdjYTFjOWQ0M2MyZWVmMmYxNWFlMTA4ODNiMDEwNzIwZGU0NjU2N2VlYzQ1NmY5M2NmNzVjMTYxZDQ3NDE1NCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 22.08
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:bad_omen",
+                          "duration": 7200,
+                          "amplifier": 4
+                        },
+                        {
+                          "id": "minecraft:hero_of_the_village",
+                          "duration": 1800,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "salmon",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1500,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 吳郭魚 ★",
+                  "color": "green",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "臺灣極具代表性的淡水魚（慈鯛科非鯽），身披灰綠暗黑暗鱗與 6 條明顯的斑馬垂直條帶，並長著寬闊的立體魚嘴。",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRUFBQUFCQUNBWUFBQUNxYVhIZUFBQUJrVWxFUVZSNG5PM1dzUzlEUVJ3SDhOKzkzRjdYTUpzb1NRZUdXaXBoSUNaaU1ocHMvZ0FKT2pmK0JBc2RqQ1poRWgwTWFxZ0lraWFVeWN6U1JZcmh5YjNrMWZVNWQrOVZKZVcrbitWM3Y3NzN1NzU3Nys2OVkyUXh2elRubTQ2dnIyMGE2L081S1VZOXpDUEhlZlNINUdjbS9Oemt1SEZHL3VzYjhCczhjcHhIanZQSWNSNDVqc252L0czdFBraEdzOE5Cak9ZMnRucFRmclIvekpKOEJkNmE3M1J4ZHRYUjNrTFdOMTllNmZMOHBsWFBSWjlvbmFDMmRibU5yZjZuL1ZmSzFhNXZxcmdReWcxUTJycmN4bGFmcFA5VXF0OS9lbHlrZ2NFRGFqU2VXYWZuMkhBaDBzb0ZmYloxdVkydFBtbi9jbUEyY2M0eDRiMndCRlpXbC8zNnd4MWxoa1lvaktYdHZiWW5PcnN3M2JZRFBEazhaZXBUbCt0YnJaY3h1bVIwUzRnbm1RSEY0bFlRQzRXTnJzNkE2T0JsMUtsZDE0T1lIY3Q4T1JhdGw3RlNydEt2dkFORXpOL2o1bkV2WGpmd1VOeWJHTVhUeWxOUjI3cTh0THRqN014Vy8xMGVUdmR3MExyQnl5bHYrbTg1dlUzMUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJBenZnQVVoQ2ZJK3BjdERNQUFBQUFTVVZPUks1Q1lJST0ifX19"
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.69
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 800,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 100,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "shallow_ocean",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：濁水狂鱗吳郭皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "歷經濁流濁水千萬次沖刷而不滅的太古慈鯛之主！墨黑斑馬重鱗堅不可摧，生命力極端頑強霸道。",
+                    "color": "red",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRUFBQUFCQUNBWUFBQUNxYVhIZUFBQUJrVWxFUVZSNG5PM1dzUzlEUVJ3SDhOKzkzRjdYTUpzb1NRZUdXaXBoSUNaaU1ocHMvZ0FKT2pmK0JBc2RqQ1poRWgwTWFxZ0lraWFVeWN6U1JZcmh5YjNrMWZVNWQrOVZKZVcrbitWM3Y3NzN1NzU3Nys2OVkyUXh2elRubTQ2dnIyMGE2L081S1VZOXpDUEhlZlNINUdjbS9Oemt1SEZHL3VzYjhCczhjcHhIanZQSWNSNDVqc252L0czdFBraEdzOE5Cak9ZMnRucFRmclIvekpKOEJkNmE3M1J4ZHRYUjNrTFdOMTllNmZMOHBsWFBSWjlvbmFDMmRibU5yZjZuL1ZmSzFhNXZxcmdReWcxUTJycmN4bGFmcFA5VXF0OS9lbHlrZ2NFRGFqU2VXYWZuMkhBaDBzb0ZmYloxdVkydFBtbi9jbUEyY2M0eDRiMndCRlpXbC8zNnd4MWxoa1lvaktYdHZiWW5PcnN3M2JZRFBEazhaZXBUbCt0YnJaY3h1bVIwUzRnbm1RSEY0bFlRQzRXTnJzNkE2T0JsMUtsZDE0T1lIY3Q4T1JhdGw3RlNydEt2dkFORXpOL2o1bkV2WGpmd1VOeWJHTVhUeWxOUjI3cTh0THRqN014Vy8xMGVUdmR3MExyQnl5bHYrbTg1dlUzMUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJBenZnQVVoQ2ZJK3BjdERNQUFBQUFTVVZPUks1Q1lJST0ifX19"
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 46.72
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "shallow_ocean",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1500,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 黃鱸 ★",
+                  "color": "green",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "北美淡水流域常見的掠食性淡水魚，金黃體側帶有鮮明橄欖綠漸層虎斑與鮮橘胸鰭。",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRUFBQUFCQUNBWUFBQUNxYVhIZUFBQUVyMGxFUVZSNEFleFdQV3diWlJoKzdudytPMmxqWTllaHNVS3RKcEdnS0NSTlJWUTZCRlNKa1lFQmxiS2dia2dnS09MSFNFd0lCQU5xMmRqNFUyY1dPblJueUlBWUdPaUFCQ29nRmdiU2hLUlJITnZuKy9pZXoxeDZkenJuY3VHaUU2ZnY1TWZmKy9PODMzM3ZqKzlzSXVaNjk3VXpvbjExWHJ6ZWZseTg4czRUNHVYMmVTa3ZpMDgvUGljK3UzWk9YUC9nak1McTlaYnd3N1BIYkovSS9kYjdLNEpJRkJSRGppM0FibmtjTytYajJIVUw2UFZjOVBzQ25ZR0puLysyMFhjTnRmMkY4UjE4dHpNZUFHM0ttZUxYSDc5dWdraHhTOFFXb09NWWNBWUN2ZTRBL2Q1QXJnNmN2b3Zkcm9zN2Q0Y0ZZUEwraENuVGx1WkJ1VmRydGdvQ0tWNnhCVENMRmdheUFLNHI1QVFNMEpmSk80NEwxd1U2d2dLVEhYV2UvWHlqWXZhenMvdkVmcHlrdnRnQ1FBaXd6MEt0VWhLQUlSZEFxSFZ4dVlXWG5tcmc5RndWTHl3VUZTalRSaDlTdk5oOUlzVXQ0MzhDbFJKZ21BWXNxd0NyYU1JdUZWQW9HQkltS3JZQXI2Mk5UUzRCUk5rQ2hFTW83RDV4aU5DUkllWkl6NytPMHpVWDVaSXBremRRa3NrWFpSR0tkZ0YyMGNEY2lRRjR2ZkVOOE9Mbk94UVZLTk9tbEJTLzJIMGl4UzNqSitDWDdUSVdUZzZ3Y1hjWFJYczRBZXRySFN4T0NmeTBOUVoyZW0zdGZ2TGU0V2lqejlQVFdObDlJbzI5dkQzTXJXOVh4S1VyQ3dwUk1tOTRlVW4rRG1TRTR3ajFFSlFpTGkvWjZwWEVUdDlzTjlGb2pJTnlwVlpWTW5YSzRUM0RPdmM2S05oOTRxRDhnL0JNa2g1dDJaaHRGaW5DTHk4L1hGSzZjc2l2WHRjQlg0VlNWQjl5eWFIQ2VPcGhPVW9uajN6Nmt1Q1Q5MVlOSWtsTUhGY1ZvTlV3TVZWVEl2enlJMU1tM241NlRPMVJyNWZrYTlCRlYvNGZPRkV2S3h0OTVGQmhQR1BEY3BST0h2bjBaUTJWOVl3c3dIUk5pZkRMajAxWmUrYzdWUy9BbHMrQVVzbkNRL1VoRi9MeU9JeG5yRFRCTDBmcDVKRkQzd0V4Zk4wRXlWRzJJQ09rOFc4MDRUZXJUT1prY3ROVlE5bjk4b1BIbEZ2Wm56dHI0ZFNrTFdIaDB0TDl3bmdjeGpPV1pMOGNwWk5IRG4xL1hXa0tQaGUydjdURXZROGgxbDhkRTdUUjU4UHdjRDZERkFNMnh0ejdDR0w3QzduUHJYbTE1NC9QVkFORjR2Tk14Z1UrS3NQNm1JbldBOE9rL0xLZk9WMHgwTDVvU1JUUm5BamNXOUVZejFncWZqbEtKNDhjK2ladi9HbDB2N29EZC9ZQ2pBbkFzUG9ZZGYxMjg3d2dSdm1ONDlMVG1JRTRWc1B2MTI1ajhkWm00S0I4Z0lhTFlKYm5yNEtvbGd5MWhtWHFIaWJXM3dUaDZmNTF2M2kvejR2eGJQTEkyQ3ZDMlJVNEc1TktwejJNbVdlL040aXduVHIzNlB6UWhGczlHWms4T1V5ZVJhRHNRVTBBRlI2TUsrR1hxWHZvUHluZkFoS2U3bC85TVg2Wm5MQWVaV01DbFl1ckJsZjZEd1BHY285dzU3Mjl2cjV4MndpL1JVeDc4bmtqUzNpSHkycmRtNENzRHBEMWZYVUJzdTVBMXZjL2lna0l2SHV6VGpEdS9rZFJnTUM3Tis0QVdmdVBvZ0JaNTVUby9yb0FpY3FWUTdLZWdCdzJOVkZLZWdJU2xTdUhaRDBCT1d4cW9wUnlQd0Z4MWRBRmlLdFEzdjE2QXZMZTRiajg5QVRFVlNqdmZqMEJlZTl3WEg1NkF1SXFsSGUvbm9DOGR6Z3VQejBCY1JYS3UxOVBRTjQ2bkRRZlBRRkpLNVkzdnA2QXZIVTBhVDU2QXBKV0xHOThQUUY1NjJqU2ZQUUVKSzFZM3ZoNkF2TFcwYVQ1NkFsSVdyRzg4ZlVFL044NytsL1AvdzhBQUFELy8vT29jbWNBQUFBR1NVUkJWQU1BR01LZ2tPL3NlWjBBQUFBQVNVVk9SSzVDWUlJPSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.7
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 1200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 100,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "cold_ocean",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：千湖狂瀾黃鱸皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "雄霸北美五大湖暗淵的太古水怪！金焰般的赤橙胸鰭掀起千層暗湧，被無數垂釣者奉為聖靈。",
+                    "color": "red",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6IHsiU0tJTiI6IHsidXJsIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRUFBQUFCQUNBWUFBQUNxYVhIZUFBQUVyMGxFUVZSNEFleFdQV3diWlJoKzdudytPMmxqWTllaHNVS3RKcEdnS0NSTlJWUTZCRlNKa1lFQmxiS2dia2dnS09MSFNFd0lCQU5xMmRqNFUyY1dPblJueUlBWUdPaUFCQ29nRmdiU2hLUlJITnZuKy9pZXoxeDZkenJuY3VHaUU2ZnY1TWZmKy9PODMzM3ZqKzlzSXVaNjk3VXpvbjExWHJ6ZWZseTg4czRUNHVYMmVTa3ZpMDgvUGljK3UzWk9YUC9nak1McTlaYnd3N1BIYkovSS9kYjdLNEpJRkJSRGppM0FibmtjTytYajJIVUw2UFZjOVBzQ25ZR0puLysyMFhjTnRmMkY4UjE4dHpNZUFHM0ttZUxYSDc5dWdraHhTOFFXb09NWWNBWUN2ZTRBL2Q1QXJnNmN2b3Zkcm9zN2Q0Y0ZZUEwraENuVGx1WkJ1VmRydGdvQ0tWNnhCVENMRmdheUFLNHI1QVFNMEpmSk80NEwxd1U2d2dLVEhYV2UvWHlqWXZhenMvdkVmcHlrdnRnQ1FBaXd6MEt0VWhLQUlSZEFxSFZ4dVlXWG5tcmc5RndWTHl3VUZTalRSaDlTdk5oOUlzVXQ0MzhDbFJKZ21BWXNxd0NyYU1JdUZWQW9HQkltS3JZQXI2Mk5UUzRCUk5rQ2hFTW83RDV4aU5DUkllWkl6NytPMHpVWDVaSXBremRRa3NrWFpSR0tkZ0YyMGNEY2lRRjR2ZkVOOE9Mbk94UVZLTk9tbEJTLzJIMGl4UzNqSitDWDdUSVdUZzZ3Y1hjWFJYczRBZXRySFN4T0NmeTBOUVoyZW0zdGZ2TGU0V2lqejlQVFdObDlJbzI5dkQzTXJXOVh4S1VyQ3dwUk1tOTRlVW4rRG1TRTR3ajFFSlFpTGkvWjZwWEVUdDlzTjlGb2pJTnlwVlpWTW5YSzRUM0RPdmM2S05oOTRxRDhnL0JNa2g1dDJaaHRGaW5DTHk4L1hGSzZjc2l2WHRjQlg0VlNWQjl5eWFIQ2VPcGhPVW9uajN6Nmt1Q1Q5MVlOSWtsTUhGY1ZvTlV3TVZWVEl2enlJMU1tM241NlRPMVJyNWZrYTlCRlYvNGZPRkV2S3h0OTVGQmhQR1BEY3BST0h2bjBaUTJWOVl3c3dIUk5pZkRMajAxWmUrYzdWUy9BbHMrQVVzbkNRL1VoRi9MeU9JeG5yRFRCTDBmcDVKRkQzd0V4Zk4wRXlWRzJJQ09rOFc4MDRUZXJUT1prY3ROVlE5bjk4b1BIbEZ2Wm56dHI0ZFNrTFdIaDB0TDl3bmdjeGpPV1pMOGNwWk5IRG4xL1hXa0tQaGUydjdURXZROGgxbDhkRTdUUjU4UHdjRDZERkFNMnh0ejdDR0w3QzduUHJYbTE1NC9QVkFORjR2Tk14Z1UrS3NQNm1JbldBOE9rL0xLZk9WMHgwTDVvU1JUUm5BamNXOUVZejFncWZqbEtKNDhjK2ladi9HbDB2N29EZC9ZQ2pBbkFzUG9ZZGYxMjg3d2dSdm1ONDlMVG1JRTRWc1B2MTI1ajhkWm00S0I4Z0lhTFlKYm5yNEtvbGd5MWhtWHFIaWJXM3dUaDZmNTF2M2kvejR2eGJQTEkyQ3ZDMlJVNEc1TktwejJNbVdlL040aXduVHIzNlB6UWhGczlHWms4T1V5ZVJhRHNRVTBBRlI2TUsrR1hxWHZvUHluZkFoS2U3bC85TVg2Wm5MQWVaV01DbFl1ckJsZjZEd1BHY285dzU3Mjl2cjV4MndpL1JVeDc4bmtqUzNpSHkycmRtNENzRHBEMWZYVUJzdTVBMXZjL2lna0l2SHV6VGpEdS9rZFJnTUM3Tis0QVdmdVBvZ0JaNTVUby9yb0FpY3FWUTdLZWdCdzJOVkZLZWdJU2xTdUhaRDBCT1d4cW9wUnlQd0Z4MWRBRmlLdFEzdjE2QXZMZTRiajg5QVRFVlNqdmZqMEJlZTl3WEg1NkF1SXFsSGUvbm9DOGR6Z3VQejBCY1JYS3UxOVBRTjQ2bkRRZlBRRkpLNVkzdnA2QXZIVTBhVDU2QXBKV0xHOThQUUY1NjJqU2ZQUUVKSzFZM3ZoNkF2TFcwYVQ1NkFsSVdyRzg4ZlVFL044NytsL1AvdzhBQUFELy8vT29jbWNBQUFBR1NVUkJWQU1BR01LZ2tPL3NlWjBBQUFBQVNVVk9SSzVDWUlJPSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 40.19
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 2400,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "cold_ocean",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 虎皮魚 ★",
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "群游於清澈河流中的活躍小型魚，因金黃底色與四道如虎斑般的墨黑縱紋而得名。",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABJElEQVR4nO3WMU7DMBSA4WerU9hQGWDo3qEM5QacoDNHYOYQDMw9AnPugWDJ0L0DDM0cdTN6loxCcGmqplIt/5/09OzGdq3XJrGRPTarFydHuJo+GTljVjJnJSGfs4nTyLYAp2AlcyNJyG3dDL6mlcxZyZzV9/z4euxD291+n0Wm988+Yv0h1h+KvkH0e5N9BtRftcnmFiiKwrmVOM3HjEm2AOrirpAhxpx9ARYPC3/Ca+emaUyIXfPaY7rzYyfGm2pt/txG2+3m56Gk7Vg/RDiKdj/fN/+/vu6hz+bDuF3XYkVM5h/wOJvLsvr4lWP0F9SIXevO19zH6JCNXr69yymUr6UptVGtJeRD+cK05vsMAAAAAAAAAAAAAAAAAAAAAAAkR99N8gH6pG24MwAAAABJRU5ErkJggg=="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.5
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 100,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 300,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "tropical_fish",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：虎皮魚皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "活在水域最深處的霸主！歷經億萬年淬鍊的【虎皮魚】至尊王者，散發著君臨天下的恐怖壓迫感。",
+                    "color": "red",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABJElEQVR4nO3WMU7DMBSA4WerU9hQGWDo3qEM5QacoDNHYOYQDMw9AnPugWDJ0L0DDM0cdTN6loxCcGmqplIt/5/09OzGdq3XJrGRPTarFydHuJo+GTljVjJnJSGfs4nTyLYAp2AlcyNJyG3dDL6mlcxZyZzV9/z4euxD291+n0Wm988+Yv0h1h+KvkH0e5N9BtRftcnmFiiKwrmVOM3HjEm2AOrirpAhxpx9ARYPC3/Ca+emaUyIXfPaY7rzYyfGm2pt/txG2+3m56Gk7Vg/RDiKdj/fN/+/vu6hz+bDuF3XYkVM5h/wOJvLsvr4lWP0F9SIXevO19zH6JCNXr69yymUr6UptVGtJeRD+cK05vsMAAAAAAAAAAAAAAAAAAAAAAAkR99N8gH6pG24MwAAAABJRU5ErkJggg=="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 20.47
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 3.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:saturation",
+                          "duration": 200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "river",
+                    "tropical_fish",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

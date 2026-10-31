@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:barrel"
+		},
+		"title": "酒精的起點",
+		"description": "歡迎來到釀造坊！踏入微醺與瘋狂的領域。",
+		"background": "minecraft:block/dark_oak_planks",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,"hidden": false
+	},
+	"criteria": {
+		"craft_alcohol": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:barrel"
+					}
+				]
+			}
+		}
+	}
+}
+

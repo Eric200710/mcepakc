@@ -1,0 +1,507 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 120,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 焦灼岩漿黃眼魚 ★",
+                  "color": "orange",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "長年生活在海底火山口附近的極端異變魚類，那一對特化的巨眼因為吸收了熔岩能量而閃爍著焦灼的黃光。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這隻與烈焰共生的怪魚，牠鱗片上的火山抗性將融入你的血液，賦予你無懼烈火與岩漿的神力！",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    1623,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjOGZmNTc2NWQ3MmJhNmVhNzQzOTM4ZjAzM2E0NmFhMTlhZjYxMTkyNzhmZTIyN2E3YjZkNmJkZmYxOSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.74
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": 1200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:night_vision",
+                          "duration": 1200,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：熔岩滅世黃金瞳皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "主宰地底熔岩之海的火山魚皇！巨大的黃金瞳中彷彿有著地獄火在燃燒，游動時尾鰭會灑落滾燙的岩漿碎屑。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這顆狂暴的火山心臟核心，徹底臣服地獄烈火！在熔岩之中你將獲得主宰戰場的絕對神力與怪力！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    1623,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjOGZmNTc2NWQ3MmJhNmVhNzQzOTM4ZjAzM2E0NmFhMTlhZjYxMTkyNzhmZTIyN2E3YjZkNmJkZmYxOSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 33.98
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": 3600,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:night_vision",
+                          "duration": 3600,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 仙人掌河豚 ★",
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "全身長滿仙人掌般尖銳倒刺的奇特河豚，光是拿在手上就覺得扎手。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "吃下去會有些微的中毒感，但牠的硬刺會讓你的皮膚變得如植物外皮般堅韌。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    40880,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwODAwODAyNjk3NjY5MWNmOWRlYzMyMGJhNmFjMmFkYTA2ZDllZjc5NjNkY2Y0Nzg1OTczYmM4MTYxM2IzZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 0.71
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 800,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:water_breathing",
+                          "duration": 1200,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "pufferfish",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：仙人掌河豚王 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "荒漠綠洲中的荊棘之皇，據說連末影龍撞到牠都會被扎得哇哇大叫。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下牠將釋放體內的針刺潛能，獲得無與倫比的防禦與水下生存力！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    40880,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwODAwODAyNjk3NjY5MWNmOWRlYzMyMGJhNmFjMmFkYTA2ZDllZjc5NjNkY2Y0Nzg1OTczYmM4MTYxM2IzZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 19.43
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 400,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1600,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:absorption",
+                          "duration": 600,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:water_breathing",
+                          "duration": 2400,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "pufferfish",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1200,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 沙子魚 ★",
+                  "color": "green",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "常年潛伏在炙熱乾燥的黃沙之中，外皮帶著粗糙的砂礫質感。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "體內蘊含著耐高熱的奇妙能量，吃下後能短暫對高溫免疫。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    43050,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcwMDg3ZGRlMTMwODQ2YzBlOTc1ZmU2ODQzNWQ4OTQwZjA5MzM5ZmFiYzYwMjZhOTY5OWZkYjYxMmI0ZjEyMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.55
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": 1200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 800,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：沙子魚王 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "統治無垠荒漠的烈陽幻影，據說牠能直接在岩漿中如履平地。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下牠將獲得免疫熔岩的極致神力，並讓你的雙手獲得風暴般的挖掘速度！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    43050,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTcwMDg3ZGRlMTMwODQ2YzBlOTc1ZmU2ODQzNWQ4OTQwZjA5MzM5ZmFiYzYwMjZhOTY5OWZkYjYxMmI0ZjEyMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 28.84
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": 3600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 2000,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "hot",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

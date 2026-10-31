@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4YzViMmY3NjRhY2M0MjU2OGM4MDJjOTE3Yjg0ZmE1Zjk1ODI0YzA5NzdlYzkyYTk4NjRhMWNlN2VjYmMxMSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "潮汐碧濤海泉",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 河豚 × 1\n🧪【效果】水下呼吸 I (3.0分鐘)\n🏷️【標籤】原版藥水 (potion), water_breathing (water_breathing), 藍色 (blue)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/potion_turtle_master",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA4YzViMmY3NjRhY2M0MjU2OGM4MDJjOTE3Yjg0ZmE1Zjk1ODI0YzA5NzdlYzkyYTk4NjRhMWNlN2VjYmMxMSJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

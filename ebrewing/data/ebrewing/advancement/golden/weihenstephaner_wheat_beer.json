@@ -1,0 +1,46 @@
+{
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:player_head",
+                                 "components":  {
+                                                    "minecraft:profile":  {
+                                                                              "properties":  [
+                                                                                                 {
+                                                                                                     "name":  "textures",
+                                                                                                     "value":  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZiOTI1ZDc5MzllYzBkOTI3MDU3ODdkOWYwMGEyYzdiNTVjODQyOTM3Yjg4ZDliYjM4NWM2MDMyNjMwNjZhMSJ9fX0="
+                                                                                                 }
+                                                                                             ]
+                                                                          }
+                                                }
+                             },
+                    "title":  "唯雪芬·修道院百年小麥白啤",
+                    "description":  "📝【配方】金錠 × 1 + 小麥 × 32 + 麵包 × 2\n🧪【效果】抗性 II (2.0分鐘) + 飽食度大幅補充 + 反胃 (4秒)\n🏷️【標籤】名酒 (famous_liquor), 啤酒 (beer), 黃色 (yellow)",
+                    "frame":  "task",
+                    "announce_to_chat":  true,
+                    "show_toast":  true,
+                    "hidden":  false
+                },
+    "parent":  "ebrewing:golden/chateau_margaux_wine",
+    "criteria":  {
+                     "get_wine":  {
+                                      "trigger":  "minecraft:inventory_changed",
+                                      "conditions":  {
+                                                         "items":  [
+                                                                       {
+                                                                           "items":  "minecraft:player_head",
+                                                                           "components":  {
+                                                                                              "minecraft:profile":  {
+                                                                                                                        "properties":  [
+                                                                                                                                           {
+                                                                                                                                               "name":  "textures",
+                                                                                                                                               "value":  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZiOTI1ZDc5MzllYzBkOTI3MDU3ODdkOWYwMGEyYzdiNTVjODQyOTM3Yjg4ZDliYjM4NWM2MDMyNjMwNjZhMSJ9fX0="
+                                                                                                                                           }
+                                                                                                                                       ]
+                                                                                                                    }
+                                                                                          }
+                                                                       }
+                                                                   ]
+                                                     }
+                                  }
+                 }
+}

@@ -1,0 +1,794 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 120,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 幽匿寄生怪魚 ★",
+                  "color": "orange",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "被遠古邃暗的幽匿苔蘚深度寄生的變異魚類，鱗片間閃爍著吸收靈魂的星空微光。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這隻散發著死寂氣息的怪魚，你的視野將陷入短暫黑暗，但肉體與聲音會徹底與陰影同化。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    55738,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwMGVlODAzYmNhODI5ODgwN2FkZDFjZGY4ZTQwMzkwMDU2ZDliYzI3MmIyOWIzZGY2NWYzYjMxY2I5OTY0YSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.65
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "sound": "block.sculk.charge",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:darkness",
+                          "duration": 300,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:invisibility",
+                          "duration": 800,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:glowing",
+                          "duration": 0,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：深淵迴響碎魂皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "統治遠古邃暗水域的禁忌地獄皇者！巨大的身軀內寄宿著無數被吞噬的靈魂，游動時會引發空間的震顫。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這顆幽匿核心，迎接典獄長般的黑暗試煉！雖然將失去光明，但你將獲得神明也無法探測的寂靜與怪力！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    55738,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwMGVlODAzYmNhODI5ODgwN2FkZDFjZGY4ZTQwMzkwMDU2ZDliYzI3MmIyOWIzZGY2NWYzYjMxY2I5OTY0YSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 25.58
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.2,
+                  "animation": "eat",
+                  "sound": "entity.warden.heartbeat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:darkness",
+                          "duration": 600,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:invisibility",
+                          "duration": 1600,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 1200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:bad_omen",
+                          "duration": 1200,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 劇毒藍環章魚 ★",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "身上閃爍著危險藍色光環的劇毒生物，千萬別被那美麗的外表欺騙了。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "食用後，牠體內的致命神經毒素會讓你變得虛弱，但同時也會賦予你與生物同化的偽裝劇毒。",
+                    "color": "aqua",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJiNjA3NGQwYzlkNmI4OWE0OTRjZjRmNzQxNTgyODJhNjRlZTIzYmE4YTA3MjU2MzNhZDcwOTMyYWRhMWE4ZiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 0.52
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 600,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：深淵絕命藍環皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "統治深海劇毒領域的恐怖王者！藍環上不斷流動著致命的幽光，所到之處海水都會化為劇毒。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這顆深海絕命核心，你將掌握讓萬物凋零的恐怖毒素！雖然伴隨著極大的副作用，但足以讓任何敵人瞬間窒息。",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJiNjA3NGQwYzlkNmI4OWE0OTRjZjRmNzQxNTgyODJhNjRlZTIzYmE4YTA3MjU2MzNhZDcwOTMyYWRhMWE4ZiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 82.77
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:wither",
+                          "duration": 300,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 1200,
+                          "amplifier": 2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 深淵白莓小魚 ★",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "藍莓魚極其罕見的深淵變種，因長年棲息於照不到陽光的萬米海溝，鱗片已完全褪為雪白。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這顆冰涼的深海盲眼珍珠，你的肉體將在短時間內與周圍的黑暗完美同化。",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    63916,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYzODczYzk3NDRhNzk4OWM1NDQ1YjBhYWQ3MGQzNGM5NTkxZTA5MzRhZTQ3ZWMwNWRkOTkxMThiNWNhMGEzOCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 0.64
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:night_vision",
+                          "duration": 1200,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:invisibility",
+                          "duration": 800,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fruit",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：幽冥深淵藍莓皇 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "統治無光深淵的蒼白帝王，身軀散發著如幽靈般的慘白微光，那是對地表生靈的古老詛咒。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下這顆被深淵幽禁億萬年的蒼白核心，你將擺脫重力束縛，並獲得看穿世間一切黑暗的鬼眼！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    63916,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYzODczYzk3NDRhNzk4OWM1NDQ1YjBhYWQ3MGQzNGM5NTkxZTA5MzRhZTQ3ZWMwNWRkOTkxMThiNWNhMGEzOCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 48.17
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.0,
+                  "animation": "eat",
+                  "sound": "entity.player.burp",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:night_vision",
+                          "duration": 3600,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:invisibility",
+                          "duration": 2400,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:slow_falling",
+                          "duration": 1600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:bad_omen",
+                          "duration": 600,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "abyss",
+                    "fruit",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 250,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "★ 變異輻射魚 ★",
+                  "color": "yellow",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "在廢水與未知輻射中誕生的變異魚類，鱗片散發著詭異的螢光綠。",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "蘊含著打破肉體極限的狂暴怪力，但致命的輻射正嚴重侵蝕著生命。",
+                    "color": "dark_green",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    11597,
+                    52822,
+                    22651,
+                    -19940
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlMjM2M2MyZDQxYTlkMzIzYmE2MjVkZThjMDYzNzA2M2EzNmZlODVhMDQ1ZGUyNzVhN2I3NzM5ZGVkNjA1MSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 0.49
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 600,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:wither",
+                          "duration": 140,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:hunger",
+                          "duration": 300,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 200,
+                          "amplifier": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "mutant",
+                    "fish"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "👑 傳說之王：變異輻射魚王 👑",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "核爆深淵中的終極污染源，光是直視牠的身軀就會感到劇烈頭痛。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "吞下牠將獲得毀滅性的神魔之力，但稍有不慎便會瞬間引火自焚！",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    22354,
+                    52822,
+                    99482,
+                    -88122
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlMjM2M2MyZDQxYTlkMzIzYmE2MjVkZThjMDYzNzA2M2EzNmZlODVhMDQ1ZGUyNzVhN2I3NzM5ZGVkNjA1MSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 36.24
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "eat",
+                  "sound": "entity.generic.eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 1200,
+                          "amplifier": 3
+                        },
+                        {
+                          "id": "minecraft:speed",
+                          "duration": 1200,
+                          "amplifier": 2
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 1200,
+                          "amplifier": 1
+                        },
+                        {
+                          "id": "minecraft:wither",
+                          "duration": 200,
+                          "amplifier": 3
+                        },
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 160,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 400,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "mutant",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "☠️ 禁忌詛咒：HIM 白眼河豚 ☠️",
+                  "color": "dark_red",
+                  "bold": true,
+                  "underlined": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "【未知的代碼錯誤】牠擁有一雙空洞的白眼，正死死盯著螢幕前的你。",
+                    "color": "red",
+                    "italic": true
+                  },
+                  {
+                    "text": "「牠從未被刪除。」吃下牠，代價是出賣你對這個世界的靈魂...",
+                    "color": "dark_purple",
+                    "italic": true
+                  }
+                ],
+                "minecraft:profile": {
+                  "id": [
+                    666,
+                    40870,
+                    666,
+                    -40870
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNmYzBjMTg2ZjZhZmFiYjFiNDAwOTE1ODRlNDM3M2E1YjY4ZjdhMzNmZjM1MjlkZWI5OTY3N2JhYWEzY2IxYyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 20,
+                  "saturation": 2.0
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 4.0,
+                  "animation": "eat",
+                  "sound": "entity.wither.spawn",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "duration": 3600,
+                          "amplifier": 4
+                        },
+                        {
+                          "id": "minecraft:resistance",
+                          "duration": 3600,
+                          "amplifier": 3
+                        },
+                        {
+                          "id": "minecraft:health_boost",
+                          "duration": 3600,
+                          "amplifier": 4
+                        },
+                        {
+                          "id": "minecraft:bad_omen",
+                          "duration": 12000,
+                          "amplifier": 4
+                        },
+                        {
+                          "id": "minecraft:blindness",
+                          "duration": 400,
+                          "amplifier": 0
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 600,
+                          "amplifier": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "fish_tags": [
+                    "deep_dark",
+                    "ancient",
+                    "mutant",
+                    "pufferfish",
+                    "fish",
+                    "king"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+noPermission: "<red>No permission!"
+noConsole: "<red>Only for in-game players!"
+invalidSubCommand: "<red>Invalid sub-command » ${1}"
+commandUsage: "<red>Usage » <yellow>{usage}"
+invalidTarget: "<red>Could not find player » <yellow>{target}"
+invalidNumber: "<red>Invalid number » <yellow>{number}"
+databaseLoading: "<yellow>The head database is still loading. Please try again shortly."
+
+favoritesNone: "<red>You have no favorite heads!"
+localNone: "<red>There are no local heads!"
+customCategoriesNone: "<red>There are no more categories!"
+
+purchase:
+  invalidFunds: "<red>You do not have enough money for this!"
+  failed: "<red>The purchase failed. Check the server console for details."
+  customUnsupported: "<yellow>Custom chat input requires Paper; use one of the preset amounts on Spigot."
+  success: "<gray>You bought <green>{amount}<gray>x <green>{name} <gray>for <green>{cost}"
+  noEconomy: "<gray>Gave you <green>{amount}<gray>x <green>{name}"
+
+menu:
+  local:
+    name: "<red>HeadDB <gray>» <gold>Local Heads"
+  favorites:
+    name: "<red>HeadDB <gray>» <gold>Favorites"
+    add: "<gold>{name} <gray>was <green>ADDED <gray>to your favorites!"
+    remove: "<gold>{name} <gray>was <red>REMOVED <gray>from your favorites!"
+  search:
+    name: "<red>HeadDB <gray>» <gold>Search <gray>» <gold>{name}"
+  recent:
+    name: "<red>HeadDB <gray>» <gold>Recently added"
+  customCategories:
+    name: "<red>HeadDB <gray>» <gold>More Categories"
+  purchase:
+    name: "<red>HeadDB <gray>» <gold>{name} <gray>» <gold>Purchase"
+
+  main:
+    name: "<red>HeadDB"
+    local:
+      name: "<aqua>Local Heads"
+    favorites:
+      name: "<yellow>Favorites"
+    search:
+      name: "<green>Search"
+    customCategories:
+      name: "<rainbow>More Categories"
+    # Category configuration, in the main menu
+    category:
+      # The actual name of the category
+      decoration:
+        # The display name of the category
+        name: "<gold>Decoration"
+
+  # Custom categories are set within the categories.yml file, this is only for the categories on the main menu.
+  category:
+    alphabet: "<red>HeadDB <gray>» <gold>Alphabet"
+    animals: "<red>HeadDB <gray>» <gold>Animals"
+    blocks: "<red>HeadDB <gray>» <gold>Blocks"
+    decoration: "<red>HeadDB <gray>» <gold>Decoration"
+    food & drinks: "<red>HeadDB <gray>» <gold>Food & Drinks"
+    humanoid: "<red>HeadDB <gray>» <gold>Humanoid"
+    humans: "<red>HeadDB <gray>» <gold>Humans"
+    miscellaneous: "<red>HeadDB <gray>» <gold>Miscellaneous"
+    monsters: "<red>HeadDB <gray>» <gold>Monsters"
+    plants: "<red>HeadDB <gray>» <gold>Plants"
+
+  # Controls for all menus
+  controls:
+    back:
+      name: "<gold>◀ Back"
+      lore: "<gray>Go to the previous page: <green>${{BACK}}"
+    info:
+      name: "<gold>ℹ Page <green>${{CURRENT}}<gray>/<red>${{MAX}}"
+      lore: "<gray>Click to go to the main menu."
+    next:
+      name: "<gold>Next ▶"
+      lore: "<gray>Go to the next page: <green>${{NEXT}}"
+
+update:
+  available: |-
+    <yellow>A new HeadDB version is available: <green>{latest}<gray> (current: {current})
+    <gray>Download: {url}
+
+command:
+
+  open:
+    opening: "<gray>Opening the <red>Head Database<gray>."
+    invalidCategory: "<red>Invalid category: <yellow>{category}"
+
+  give:
+    consoleUsage: "<red>Console usage: /hdb give <player> <amount> <head>"
+    invalidId: "<red>Invalid head id » <yellow>{id}"
+    invalidAmount: "<red>Amount must be between <yellow>1<red> and <yellow>{max}"
+    failed: "<red>Could not give that head. Check the server console for details."
+    success: "<gray>Gave <green>{amount}<gray>x <green>{name} <gray>to <green>{target}"
+
+  search:
+    input: "<gray>Enter search query and filters:"
+    manual: "<yellow>Chat input requires Paper. Run <white>/hdb search \\<query\\><yellow> instead."
+    start: "<gray> ⏳ Searching..."
+    empty: "<red>Enter a name or at least one search filter."
+    invalidId: "<red>Invalid head ID: <yellow>{id}"
+    failed: "<red>The search failed. Check the server console for details."
+    none: "<red>No heads found!"
+    found: "<gray>Found <green>{amount} <gray>heads!"
+    website: "<gray>Want to refine this search faster? <aqua><underlined>Open it on headdb.net</underlined></aqua> to filter results and copy ready-to-use commands."
+    filter: |
+      
+      <gray>🔎 <bold>Filters</bold>
+      <dark_gray>───────────────</dark_gray>
+      <gray>• <white>Name</white> » <gold>{name}
+      <gray>• <white>Category</white> » <gold>{category}
+      <gray>• <white>Tags</white> » <gold>{tags}
+      <gray>• <white>IDs</white> » <gold>{ids}
+      <gray>• <white>Mode</white> » <gold>{mode}
+      
+
+  sounds:
+    enabled: "<green>HeadDB interface sounds enabled."
+    disabled: "<yellow>HeadDB interface sounds disabled. Run the command again to re-enable them."
+
+  submit:
+    link: "<gray>Have a head to share? <aqua><underlined>Submit it on headdb.net</underlined></aqua> for review."
+
+  sync:
+    start: "<gray>Synchronizing the HeadDB catalog..."
+    success: "<green>Catalog synchronized successfully. <gray>{amount} heads are available."
+    failed: "<red>Catalog synchronization failed: <yellow>{error}"
+
+  reload:
+    success: "<green>Reloaded messages, sounds, menus, prices, website links, and local categories. <yellow>Database endpoints, player-storage backend, worker counts, and task intervals still require a restart."
+
+  inspect:
+    notHead: "<red>Hold a HeadDB catalog head or provide an ID, name, or texture."
+    notFound: "<red>That head is not in the current catalog."
+    consoleUsage: "<red>Console usage: /hdb inspect <id|name|texture>"
+
+  language:
+    available: "<gray>Available HeadDB languages: <aqua>{languages}"
+    invalid: "<red>Unknown language: <yellow>{language}"
+    changed: "<green>Your HeadDB language is now <aqua>{language}<green>."

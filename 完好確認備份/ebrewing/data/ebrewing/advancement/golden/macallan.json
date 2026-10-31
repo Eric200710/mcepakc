@@ -1,0 +1,51 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [0, 0, 0, 0],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNmZTU1MTgyZDc3YWYxODQ3OThlMjJiOGYzNjcyYjM2YTRjMDIxYTE1MjczYWYxZWFlMGUwODk4MGQ3YWM2NiJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "麥卡倫·雪莉桶 12 年威士忌",
+		"description": "📝【配方】小麥 × 16 + 紅樹林原木 × 1\n🧪【效果】吸收 II (2分) + 抗火 (3.5分) + 反胃 (6秒)",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:golden/jack_daniels",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [0, 0, 0, 0],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNmZTU1MTgyZDc3YWYxODQ3OThlMjJiOGYzNjcyYjM2YTRjMDIxYTE1MjczYWYxZWFlMGUwODk4MGQ3YWM2NiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
+

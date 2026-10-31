@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZkZTE5M2IwYWY1ZjA3YjRkMWVlZmM1NTRlZjZjYTEyOTgwM2E0ZTk0YzMzMjIyZDUwZTczYjFmZWE4NWQxZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "唐胡里歐·1942 龍舌蘭",
+    "description": "📝【配方】金錠 × 1 + 仙人掌 × 16 + 火焰彈 × 1\n🧪【效果】抗火 I (4.0分鐘) + 力量 II (2.0分鐘) + 反胃 (6秒)\n🏷️【標籤】名酒 (famous_liquor), 龍舌蘭 (tequila), 橘色 (orange)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:golden/dom_perignon_champagne",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZkZTE5M2IwYWY1ZjA3YjRkMWVlZmM1NTRlZjZjYTEyOTgwM2E0ZTk0YzMzMjIyZDUwZTczYjFmZWE4NWQxZiJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

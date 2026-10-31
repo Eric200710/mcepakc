@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:brewing_stand"
+		},
+		"title": "大師特調",
+		"description": "運用雙重材料完美碰撞出高階的調味混酒。",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,"hidden": false
+	},
+	"parent": "ebrewing:root",
+	"criteria": {
+		"get_special": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:brewing_stand"
+					}
+				]
+			}
+		}
+	}
+}
+

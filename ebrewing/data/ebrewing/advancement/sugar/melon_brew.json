@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "",
+          "id": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMTRhOGNmMDkyZDBjZDE2OTMzYmUyZGM5ZDQ0MGZiMzBiNTE1OTIxZmM2YjY4Y2RjYzE5YWJmODY0NmZjZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "金西瓜釀",
+    "description": "📝【配方】糖 × 1 + 閃爍的西瓜片 × 16\n🧪【效果】瞬間治療 I (瞬間回復 1 顆心)\n🏷️【標籤】sugar_brew (sugar_brew), healing (healing), 紅色 (red)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/sugar_brew",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "name": "",
+                "id": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBhMTRhOGNmMDkyZDBjZDE2OTMzYmUyZGM5ZDQ0MGZiMzBiNTE1OTIxZmM2YjY4Y2RjYzE5YWJmODY0NmZjZiJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

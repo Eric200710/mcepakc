@@ -1,0 +1,18 @@
+# 1. 播放極致的毀滅與爆炸音效（凋零怪誕生與爆炸聲重疊，震耳欲聾）
+playsound minecraft:entity.wither.spawn player @a ~ ~ ~ 1 0.5
+playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1 0.8
+
+# 2. 爆發宏大的毀滅特效（完全合法的原生粒子組合）
+# 純黑色粒子 (entity_effect 搭配 RGB 0 0 0)
+particle minecraft:ash ~ ~1 ~ 0 0 0 1 150 normal
+# 紫黑色龍息煙霧
+particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.05 60 normal
+# 靈魂火焰與標準爆炸
+particle minecraft:soul_fire_flame ~ ~1 ~ 0.8 1 0.8 0.1 100 normal
+particle minecraft:explosion ~ ~1 ~ 1 1 1 0.1 50 normal
+
+# 3. 在聊天室對全伺服器所有人廣播
+tellraw @a [{"text":"☠️ ","color":"dark_red"},{"selector":"@s","color":"gold","bold":true},{"text":" 燃盡了凋零的力量，形神俱滅...","color":"red"}]
+
+# 4. 擊殺該名玩家
+kill @s

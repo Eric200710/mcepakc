@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "星空之詠嘆",
+		"description": "📝【配方】夜魅膜 × 3 + 地獄之星 × 1\n🧪【效果】速度 II + 夜視 + 緩降 + 跳躍 II (3分鐘)",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:diamond",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjA1NThkY2U5N2NkZWViOGE3NThkY2YzOTQxNTNkNDQ1MzRhZjU0N2YzMGM0ZjU4NThhNTFjOWY0NDNjN2YwYiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

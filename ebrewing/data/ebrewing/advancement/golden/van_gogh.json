@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "",
+          "id": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFhZjkzZjVjOThlMzRjNjViNzUwNzhiZjI1NzYyN2NlZGVhOTkwOGYwYTU2OWExYjg5OWZlYjRlNmJhOWUzMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "梵谷的瘋狂調色盤",
+    "description": "📝【配方】短草 × 16 + 藍晶石 × 1\n🧪【效果】挖掘急迫 III (2分) + 發光 (1分) + 超強眩暈 (20秒)\n🏷️【標籤】名酒 (famous_liquor), 苦艾酒 (absinthe), 綠色 (green)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:golden/romanee_conti",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "name": "",
+                "id": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFhZjkzZjVjOThlMzRjNjViNzUwNzhiZjI1NzYyN2NlZGVhOTkwOGYwYTU2OWExYjg5OWZlYjRlNmJhOWUzMCJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

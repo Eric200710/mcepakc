@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "",
+          "id": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JhMTBiZmIyNGQ2ZjA2YzMwYzlhYWNiM2Y5YzhhZmNlNDJhZTc4ZjYxNTZiMzE1NTlkZjYzYzBiMzEyZjFiNSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "凋零糟粕",
+    "description": "📝【配方】凋零玫瑰 × 8\n🧪【效果】凋零 VIII (40秒)\n🏷️【標籤】sugar_brew (sugar_brew), wither (wither), decay (decay), 黑色 (black)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/apple_brew",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "name": "",
+                "id": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JhMTBiZmIyNGQ2ZjA2YzMwYzlhYWNiM2Y5YzhhZmNlNDJhZTc4ZjYxNTZiMzE1NTlkZjYzYzBiMzEyZjFiNSJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

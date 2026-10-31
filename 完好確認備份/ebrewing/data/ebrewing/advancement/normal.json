@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fermented_spider_eye"
+		},
+		"title": "民間私釀",
+		"description": "釀造出一款大眾化、風味獨特的普通民俗純酒。",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,"hidden": false
+	},
+	"parent": "ebrewing:root",
+	"criteria": {
+		"get_normal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:fermented_spider_eye"
+					}
+				]
+			}
+		}
+	}
+}

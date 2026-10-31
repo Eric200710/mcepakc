@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "break_player_head": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": "minecraft:player_head"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ebrewing:raycast_step"
+  }
+}

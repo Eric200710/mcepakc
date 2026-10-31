@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [0, 0, 0, 0],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBmYWVjMDE2YzFjOGRkN2ViMjMxZGNhNmVjYTZiNjNiMThiMzQ3YTM4N2JlMmE1ZTQyNWMwZmI1N2FlMjIxIn19fQ=="
+						}
+					]
+				}
+			}
+		},
+		"title": "純淨魂光晶露",
+		"description": "📝【配方】附魔之瓶 × 1\n🧪【效果】幸運 I + 村莊英雄 I (1分鐘) [帶有神祕技能]",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:special/godwither",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [0, 0, 0, 0],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBmYWVjMDE2YzFjOGRkN2ViMjMxZGNhNmVjYTZiNjNiMThiMzQ3YTM4N2JlMmE1ZTQyNWMwZmI1N2FlMjIxIn19fQ=="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYxNWE0N2RkMmEzNDdiY2IyMDZkMzA2MDI2MWRmYTE0NDY5NzgxYjc3ZDQwZDE3OGZiN2I0Mzc5MjI2ZDA3OSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "香檳之王·香檳唐培里儂",
+    "description": "📝【配方】金錠 × 1 + 甜漿果 × 16 + 金粒 × 8\n🧪【效果】幸運 II (3.0分鐘) + 速度 II (2.0分鐘) + 反胃 (4秒)\n🏷️【標籤】名酒 (famous_liquor), 葡萄酒 (wine), champagne (champagne), 黃色 (yellow)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:golden/premium_aged_rum_display",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYxNWE0N2RkMmEzNDdiY2IyMDZkMzA2MDI2MWRmYTE0NDY5NzgxYjc3ZDQwZDE3OGZiN2I0Mzc5MjI2ZDA3OSJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

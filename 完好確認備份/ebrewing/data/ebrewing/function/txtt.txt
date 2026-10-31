@@ -1,0 +1,5 @@
+"spyglass"
+
+
+
+minecraft:player_head[minecraft:custom_name={"text":"斯拉夫經典伏特加","color":"gold","underlined":true,"bold":true,"italic":false},minecraft:lore=[{"text":"採用上等馬鈴薯多重蒸餾，經藍晶極光過濾，呈現無瑕的純淨瓶裝。","color":"gray","italic":false},{"text":"🧪 純淨烈酒：瞬間回復大量飽食度並獲得急迫，但伴隨強烈後勁","color":"yellow","italic":false}],profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E2MjNjNzQwODdmNzRmZTRmOGVhODZhODYzYTI0MDA3MTI1Y2I0Y2U0ZTc3Yzg1NmY0ODU1ODUzN2UzYmY2NCJ9fX0="}]},minecraft:food={nutrition:8,saturation:12.0,can_always_eat:true},minecraft:consumable={consume_seconds:0.7,animation:"spyglass",sound:"entity.generic.drink",on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:haste",duration:2400,amplifier:1},{id:"minecraft:saturation",duration:20,amplifier:0},{id:"minecraft:nausea",duration:160,amplifier:0}]}]},attribute_modifiers=[{slot:"mainhand",type:"block_interaction_range",id:"block_interaction_range_533756988",amount:-100d,operation:'add_multiplied_total'}],tooltip_display={hide_tooltip:false,hidden_components:['attribute_modifiers']}] 12

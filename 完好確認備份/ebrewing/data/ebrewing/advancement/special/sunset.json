@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [0, 0, 0, 0],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0N2ZlZDFjNWY4ZjkxYzkwZTU2ZTdhMGEwNzQ0YjdkYzhjNDg1MGY3NDVkNmZhYTAxN2E2OWI0M2IwNTQyMSJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "落日微醺熱帶特調",
+		"description": "📝【配方】紅沙 × 1\n🧪【效果】夜視 (4分) + 生命提升 II (2分) + 抗火 (2分)",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:special/lumberjack",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [0, 0, 0, 0],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0N2ZlZDFjNWY4ZjkxYzkwZTU2ZTdhMGEwNzQ0YjdkYzhjNDg1MGY3NDVkNmZhYTAxN2E2OWI0M2IwNTQyMSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

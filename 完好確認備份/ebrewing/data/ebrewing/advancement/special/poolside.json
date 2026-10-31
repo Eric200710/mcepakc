@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [0, 0, 0, 0],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JhYjY3NjFjNTQ2MjY4YzNmMDRmZjZiMjljMzg4MWM3YjQ3ZjVmZGU5ZjQyNWQ2MmQ5NTk1ODQxOWQyIn19fQ=="
+						}
+					]
+				}
+			}
+		},
+		"title": "沁藍夏日泳池特調",
+		"description": "📝【配方】沙子 × 1\n🧪【效果】海豚恩賜 (3分) + 水下呼吸 (3分) + 速度 II (2分)",
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"parent": "ebrewing:special/sunset",
+	"criteria": {
+		"get_wine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [0, 0, 0, 0],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JhYjY3NjFjNTQ2MjY4YzNmMDRmZjZiMjljMzg4MWM3YjQ3ZjVmZGU5ZjQyNWQ2MmQ5NTk1ODQxOWQyIn19fQ=="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

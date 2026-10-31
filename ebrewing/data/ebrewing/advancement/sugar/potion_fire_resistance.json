@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I5ZWQxY2UxOGFlMTI3YTgwNGNkMzNmYTA1Yzc1YzZjOWJlYTAxMTM2NzYxNmNlYjg5ZmNiNGJhMmZkYmZkNCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "炙焰焦糖露",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 岩漿球 × 1\n🧪【效果】抗火 I (3.0分鐘)\n🏷️【標籤】原版藥水 (potion), fire_resistance (fire_resistance), 橘色 (orange)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/wither_brew",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I5ZWQxY2UxOGFlMTI3YTgwNGNkMzNmYTA1Yzc1YzZjOWJlYTAxMTM2NzYxNmNlYjg5ZmNiNGJhMmZkYmZkNCJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond"
+		},
+		"title": "秘傳藥劑",
+		"description": "獲得調配困難、效果極致的秘傳鍊金藥劑。",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,"hidden": false
+	},
+	"parent": "ebrewing:root",
+	"criteria": {
+		"get_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond"
+					}
+				]
+			}
+		}
+	}
+}

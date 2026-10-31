@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI0NzE1YTNlYjBkOTUxMjU4NDM1ZWY1MWQ2ZDIzMjBmNjM0NmNhYmExNmYzNjA5ZWRmYzBjMGM5NWYwZWUzYSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "迷魂沉暮糖茶",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 發酵蜘蛛眼 × 1\n🧪【效果】虛弱 I (1.5分鐘)\n🏷️【標籤】原版藥水 (potion), weakness (weakness), 灰色 (gray)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/potion_water_breathing",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI0NzE1YTNlYjBkOTUxMjU4NDM1ZWY1MWQ2ZDIzMjBmNjM0NmNhYmExNmYzNjA5ZWRmYzBjMGM5NWYwZWUzYSJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

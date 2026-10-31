@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg1MzU4NGZhMWYwMjIyNGNlYTk5MDM4MmQ5ODZiOWQ2MmIyOGMyZTkyOWQ5ZDQ1MTE5Y2U4M2Q1YzJjYjI0YyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "寄生蝕髓濃漿",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 鵝卵石 × 1\n🧪【效果】寄生 I (1.5分鐘)\n🏷️【標籤】原版藥水 (potion), infestation (infestation), 灰色 (gray)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/potion_healing",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg1MzU4NGZhMWYwMjIyNGNlYTk5MDM4MmQ5ODZiOWQ2MmIyOGMyZTkyOWQ5ZDQ1MTE5Y2U4M2Q1YzJjYjI0YyJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:sugar"
+		},
+		"title": "甘甜藥水",
+		"description": "提煉出蘊含魔法增益的甘甜藥水液體。",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,"hidden": false
+	},
+	"parent": "ebrewing:root",
+	"criteria": {
+		"get_sugar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:sugar"
+					}
+				]
+			}
+		}
+	}
+}

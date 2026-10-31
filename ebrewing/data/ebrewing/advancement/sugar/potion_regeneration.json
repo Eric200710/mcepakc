@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAxYWNhNjRmY2QxZTgwMTlhYTU1ODA0YWE0ZTAyY2Q3YjFmZWY4Y2MyNThhMzNhNWVlNTUwZWJjZWU3NjdhMyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "天使之淚凝露",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 惡魂之淚 × 1\n🧪【效果】生命恢復 II (45秒)\n🏷️【標籤】原版藥水 (potion), regeneration (regeneration), 粉紅色 (pink)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/potion_poison",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAxYWNhNjRmY2QxZTgwMTlhYTU1ODA0YWE0ZTAyY2Q3YjFmZWY4Y2MyNThhMzNhNWVlNTUwZWJjZWU3NjdhMyJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

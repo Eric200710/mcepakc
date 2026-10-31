@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5OGE4NWY5OWY2NmUxMzVjYWZiZmUzZWJlNDk0NjU2Njg5MDkyNzJhNmQzMGE4NDU5NzFmMTU0MmI4NzExMyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "翡翠甘露西瓜飲",
+    "description": "📝【配方】糖 × 1 + 烈焰粉 × 2 + 閃爍西瓜片 × 1\n🧪【效果】瞬間治療 II\n🏷️【標籤】原版藥水 (potion), healing (healing), 紅色 (red)",
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "ebrewing:sugar/potion_harming",
+  "criteria": {
+    "get_wine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5OGE4NWY5OWY2NmUxMzVjYWZiZmUzZWJlNDk0NjU2Njg5MDkyNzJhNmQzMGE4NDU5NzFmMTU0MmI4NzExMyJ9fX0="
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

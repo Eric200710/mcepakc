@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": {"text":"試做版", "color":"gold"},
+		"pack_format": 81,
+        "supported_formats": [0, 81]
+    }
+}
