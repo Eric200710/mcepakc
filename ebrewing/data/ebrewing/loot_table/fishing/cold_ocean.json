@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 普通鱈魚 ★",
-                  "color": "white",
+                  "color": "gray",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -159,7 +159,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 遠洋黃鰭鮪魚 ★",
-                  "color": "orange",
+                  "color": "yellow",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -491,7 +491,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 黃鱸 ★",
-                  "color": "green",
+                  "color": "white",
                   "bold": true,
                   "underlined": true,
                   "italic": false

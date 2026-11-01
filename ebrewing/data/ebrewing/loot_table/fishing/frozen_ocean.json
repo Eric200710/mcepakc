@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 晶瑩冰塊魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -341,7 +341,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 4546B 極地大眼仔 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -513,7 +513,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 冰霜望遠鏡魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false

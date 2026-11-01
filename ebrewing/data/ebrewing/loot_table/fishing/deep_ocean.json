@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 龍蝦 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -144,7 +144,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 黃眼深海魚 ★",
-                  "color": "blue",
+                  "color": "green",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -304,7 +304,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 撕咬深海食人魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -469,7 +469,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 安康魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -631,7 +631,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 漆黑藍螢燈籠魚 ★",
-                  "color": "orange",
+                  "color": "yellow",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -795,7 +795,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 珠光魚 ★",
-                  "color": "orange",
+                  "color": "yellow",
                   "bold": true,
                   "underlined": true,
                   "italic": false

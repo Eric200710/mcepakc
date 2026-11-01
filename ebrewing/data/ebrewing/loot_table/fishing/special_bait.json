@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 軟綿馬鈴薯魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -181,7 +181,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 水滴甜菜魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -343,7 +343,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 腫頭胡蘿蔔魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -510,7 +510,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 清脆小黃瓜魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -672,7 +672,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 乾草捆魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -834,7 +834,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 圓滾西瓜魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -1001,7 +1001,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 番茄魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -1151,7 +1151,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 納米藍莓小魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -1318,7 +1318,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 迷你葡萄小魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -1485,7 +1485,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 狂笑鳳梨魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -1652,7 +1652,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 櫻桃炸彈魚 ★",
-                  "color": "purple",
+                  "color": "blue",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -2517,7 +2517,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 公子小丑魚 ★",
-                  "color": "orange",
+                  "color": "yellow",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -2659,7 +2659,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 虎皮魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false

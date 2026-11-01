@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 螢光蝦 ★",
-                  "color": "green",
+                  "color": "white",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -159,7 +159,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 螢光河豚 ★",
-                  "color": "orange",
+                  "color": "yellow",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -348,7 +348,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 化石魚 ★",
-                  "color": "blue",
+                  "color": "green",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -520,7 +520,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 遠古魚 ★",
-                  "color": "green",
+                  "color": "white",
                   "bold": true,
                   "underlined": true,
                   "italic": false

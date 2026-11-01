@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 普通鮭魚 ★",
-                  "color": "white",
+                  "color": "gray",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -159,7 +159,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 貴族鮭魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -321,7 +321,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 吳郭魚 ★",
-                  "color": "green",
+                  "color": "white",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -461,7 +461,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 黃鱸 ★",
-                  "color": "green",
+                  "color": "white",
                   "bold": true,
                   "underlined": true,
                   "italic": false
@@ -601,7 +601,7 @@
               "components": {
                 "minecraft:item_name": {
                   "text": "★ 虎皮魚 ★",
-                  "color": "yellow",
+                  "color": "light_purple",
                   "bold": true,
                   "underlined": true,
                   "italic": false
